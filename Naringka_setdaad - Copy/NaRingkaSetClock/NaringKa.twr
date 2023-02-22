@@ -1,0 +1,138 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml NaringKa.twx NaringKa.ncd -o NaringKa.twr NaringKa.pcf
+-ucf NaringKa.ucf
+
+Design file:              NaringKa.ncd
+Physical constraint file: NaringKa.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock Hour_Toggle to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+P27         |        10.452(R)|      SLOW  |         5.553(R)|      FAST  |XLXI_41/XLXN_9    |   0.000|
+P29         |        10.085(R)|      SLOW  |         5.257(R)|      FAST  |XLXI_41/XLXN_9    |   0.000|
+P32         |         9.964(R)|      SLOW  |         5.225(R)|      FAST  |XLXI_41/XLXN_9    |   0.000|
+P34         |        10.219(R)|      SLOW  |         5.370(R)|      FAST  |XLXI_41/XLXN_9    |   0.000|
+P35         |         9.787(R)|      SLOW  |         5.096(R)|      FAST  |XLXI_41/XLXN_9    |   0.000|
+P40         |         9.718(R)|      SLOW  |         4.955(R)|      FAST  |XLXI_41/XLXN_9    |   0.000|
+P41         |         9.491(R)|      SLOW  |         4.973(R)|      FAST  |XLXI_41/XLXN_9    |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock Minute_Toggle to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+P27         |        11.309(R)|      SLOW  |         6.052(R)|      FAST  |XLXI_39/XLXN_17   |   0.000|
+P29         |        10.771(R)|      SLOW  |         5.755(R)|      FAST  |XLXI_39/XLXN_17   |   0.000|
+P32         |        10.587(R)|      SLOW  |         5.774(R)|      FAST  |XLXI_39/XLXN_17   |   0.000|
+P34         |        10.842(R)|      SLOW  |         5.924(R)|      FAST  |XLXI_39/XLXN_17   |   0.000|
+P35         |        10.432(R)|      SLOW  |         5.265(R)|      FAST  |XLXI_39/XLXN_17   |   0.000|
+P40         |        10.352(R)|      SLOW  |         5.454(R)|      FAST  |XLXI_39/XLXN_17   |   0.000|
+P41         |        10.229(R)|      SLOW  |         5.463(R)|      FAST  |XLXI_39/XLXN_17   |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock SlideSet to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+P27         |        12.158(R)|      SLOW  |         6.670(R)|      FAST  |XLXI_39/XLXN_17   |   0.000|
+            |        11.968(R)|      SLOW  |         6.532(R)|      FAST  |XLXI_41/XLXN_9    |   0.000|
+P29         |        11.620(R)|      SLOW  |         6.373(R)|      FAST  |XLXI_39/XLXN_17   |   0.000|
+            |        11.601(R)|      SLOW  |         6.236(R)|      FAST  |XLXI_41/XLXN_9    |   0.000|
+P32         |        11.436(R)|      SLOW  |         6.392(R)|      FAST  |XLXI_39/XLXN_17   |   0.000|
+            |        11.480(R)|      SLOW  |         6.204(R)|      FAST  |XLXI_41/XLXN_9    |   0.000|
+P34         |        11.691(R)|      SLOW  |         6.542(R)|      FAST  |XLXI_39/XLXN_17   |   0.000|
+            |        11.735(R)|      SLOW  |         6.349(R)|      FAST  |XLXI_41/XLXN_9    |   0.000|
+P35         |        11.281(R)|      SLOW  |         5.883(R)|      FAST  |XLXI_39/XLXN_17   |   0.000|
+            |        11.303(R)|      SLOW  |         6.075(R)|      FAST  |XLXI_41/XLXN_9    |   0.000|
+P40         |        11.201(R)|      SLOW  |         6.072(R)|      FAST  |XLXI_39/XLXN_17   |   0.000|
+            |        11.234(R)|      SLOW  |         5.934(R)|      FAST  |XLXI_41/XLXN_9    |   0.000|
+P41         |        11.078(R)|      SLOW  |         6.081(R)|      FAST  |XLXI_39/XLXN_17   |   0.000|
+            |        11.007(R)|      SLOW  |         5.952(R)|      FAST  |XLXI_41/XLXN_9    |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock Hour_Toggle
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Hour_Toggle    |    2.842|         |         |         |
+SlideSet       |    2.842|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock Minute_Toggle
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Minute_Toggle  |    2.509|         |         |         |
+SlideSet       |    2.509|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock SlideSet
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Hour_Toggle    |    2.842|         |         |         |
+Minute_Toggle  |    2.509|         |         |         |
+SlideSet       |    2.842|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock XLXN_35
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+XLXN_35        |    3.339|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+P24            |LED0           |    6.861|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Dec 12 01:34:04 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4571 MB
+
+
+

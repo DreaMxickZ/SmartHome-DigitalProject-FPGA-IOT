@@ -1,0 +1,38 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "COm0" LOC = P44;
+NET "COm1" LOC = P43;
+NET "COm2" LOC = P33;
+NET "COm3" LOC = P30;
+NET "Hour_P46" LOC = P46;
+NET "IN_ROOM_Living_P1" LOC = P1;
+NET "IN_ROOM_Toilet_P142" LOC = P142;
+NET "Lighting_Around_LED" LOC = P24;
+NET "Lighting_Around_P" LOC = P82;
+NET "IR_PIN_P23" LOC = P23;
+NET "Lighing_Room_P" LOC = P16;
+NET "Minute_P47" LOC = P47;
+NET "Osc" LOC = P123;
+NET "P27" LOC = P27;
+NET "P29" LOC = P29;
+NET "P32" LOC = P32;
+NET "P34" LOC = P34;
+NET "P35" LOC = P35;
+NET "P40" LOC = P40;
+NET "P41" LOC = P41;
+NET "P45" LOC = P45;
+NET "PIR_PIN_P21" LOC = P21;
+NET "Point" LOC = P26;
+NET "Reset_P48" LOC = P48;
+NET "Slide_Set_SW7" LOC = P55;
+NET "Slide_SW0" LOC = P66;
+NET "Slide_SW1_20_23" LOC = P62;
+NET "Air_Bedroom_P2" LOC = P2;
+NET "Air_LED" LOC = P81;
+
+
+
+
+
+

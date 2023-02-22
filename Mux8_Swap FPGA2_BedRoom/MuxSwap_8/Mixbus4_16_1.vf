@@ -1,0 +1,68 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Mixbus4_16_1.vf
+// /___/   /\     Timestamp : 12/12/2022 20:45:32
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog "C:/Users/XickZenF5/Desktop/Mux8_Swap FPGA2_BedRoom/MuxSwap_8/Mixbus4_16_1.vf" -w "C:/Users/XickZenF5/Desktop/Mux8_Swap FPGA2_BedRoom/MuxSwap_8/Mixbus4_16_1.sch"
+//Design Name: Mixbus4_16_1
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Mixbus4_16_1(BIT_0_3, 
+                    BIT_4_7, 
+                    BIT_8_11, 
+                    BIT_12_15, 
+                    BIT_OUT);
+
+    input [3:0] BIT_0_3;
+    input [3:0] BIT_4_7;
+    input [3:0] BIT_8_11;
+    input [3:0] BIT_12_15;
+   output [15:0] BIT_OUT;
+   
+   
+   BUF  XLXI_1 (.I(BIT_0_3[0]), 
+               .O(BIT_OUT[0]));
+   BUF  XLXI_2 (.I(BIT_0_3[1]), 
+               .O(BIT_OUT[1]));
+   BUF  XLXI_3 (.I(BIT_0_3[2]), 
+               .O(BIT_OUT[2]));
+   BUF  XLXI_4 (.I(BIT_0_3[3]), 
+               .O(BIT_OUT[3]));
+   BUF  XLXI_5 (.I(BIT_4_7[0]), 
+               .O(BIT_OUT[4]));
+   BUF  XLXI_6 (.I(BIT_4_7[1]), 
+               .O(BIT_OUT[5]));
+   BUF  XLXI_7 (.I(BIT_4_7[2]), 
+               .O(BIT_OUT[6]));
+   BUF  XLXI_8 (.I(BIT_4_7[3]), 
+               .O(BIT_OUT[7]));
+   BUF  XLXI_9 (.I(BIT_8_11[0]), 
+               .O(BIT_OUT[8]));
+   BUF  XLXI_10 (.I(BIT_8_11[1]), 
+                .O(BIT_OUT[9]));
+   BUF  XLXI_11 (.I(BIT_8_11[2]), 
+                .O(BIT_OUT[10]));
+   BUF  XLXI_12 (.I(BIT_8_11[3]), 
+                .O(BIT_OUT[11]));
+   BUF  XLXI_13 (.I(BIT_12_15[0]), 
+                .O(BIT_OUT[12]));
+   BUF  XLXI_14 (.I(BIT_12_15[1]), 
+                .O(BIT_OUT[13]));
+   BUF  XLXI_15 (.I(BIT_12_15[2]), 
+                .O(BIT_OUT[14]));
+   BUF  XLXI_16 (.I(BIT_12_15[3]), 
+                .O(BIT_OUT[15]));
+endmodule

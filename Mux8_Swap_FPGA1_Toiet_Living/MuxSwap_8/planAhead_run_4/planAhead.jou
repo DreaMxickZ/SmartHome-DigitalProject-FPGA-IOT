@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Tue Dec 13 01:43:49 2022
+# Process ID: 484
+# Log file: C:/Users/XickZenF5/Desktop/Mux8_Swap_FPGA1_Toiet_Living/MuxSwap_8/planAhead_run_4/planAhead.log
+# Journal file: C:/Users/XickZenF5/Desktop/Mux8_Swap_FPGA1_Toiet_Living/MuxSwap_8/planAhead_run_4/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/XickZenF5/Desktop/Mux8_Swap_FPGA1_Toiet_Living/MuxSwap_8/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin P2 [get_ports Fan_Living_Relay]
+endgroup
+startgroup
+set_property package_pin P143 [get_ports Lighting_Toilet_Relay]
+endgroup
+save_constraints

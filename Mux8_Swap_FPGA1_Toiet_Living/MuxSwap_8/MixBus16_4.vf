@@ -1,0 +1,145 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : MixBus16_4.vf
+// /___/   /\     Timestamp : 12/09/2022 22:37:58
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/MixBus16_4.vf -w C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/MixBus16_4.sch
+//Design Name: MixBus16_4
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale  100 ps / 10 ps
+
+module INV4_HXILINX_MixBus16_4 (O0, O1, O2, O3, I0, I1, I2, I3);
+    
+
+   output O0;
+   output O1;
+   output O2;
+   output O3;
+
+   input  I0;
+   input  I1;
+   input  I2;
+   input  I3;
+
+assign O0 = !I0;
+assign O1 = !I1;
+assign O2 = !I2;
+assign O3 = !I3;
+
+endmodule
+`timescale 1ns / 1ps
+
+module MixBus16_4(BIT, 
+                  A, 
+                  B, 
+                  C, 
+                  D);
+
+    input [15:0] BIT;
+   output [3:0] A;
+   output [3:0] B;
+   output [3:0] C;
+   output [3:0] D;
+   
+   wire XLXN_1;
+   wire XLXN_2;
+   wire XLXN_3;
+   wire XLXN_4;
+   wire XLXN_5;
+   wire XLXN_6;
+   wire XLXN_7;
+   wire XLXN_8;
+   wire XLXN_25;
+   wire XLXN_26;
+   wire XLXN_27;
+   wire XLXN_28;
+   wire XLXN_29;
+   wire XLXN_30;
+   wire XLXN_31;
+   wire XLXN_32;
+   
+   (* HU_SET = "XLXI_1_42" *) 
+   INV4_HXILINX_MixBus16_4  XLXI_1 (.I0(BIT[3]), 
+                                   .I1(BIT[2]), 
+                                   .I2(BIT[1]), 
+                                   .I3(BIT[0]), 
+                                   .O0(XLXN_1), 
+                                   .O1(XLXN_2), 
+                                   .O2(XLXN_3), 
+                                   .O3(XLXN_4));
+   (* HU_SET = "XLXI_2_43" *) 
+   INV4_HXILINX_MixBus16_4  XLXI_2 (.I0(BIT[7]), 
+                                   .I1(BIT[6]), 
+                                   .I2(BIT[5]), 
+                                   .I3(BIT[4]), 
+                                   .O0(XLXN_5), 
+                                   .O1(XLXN_6), 
+                                   .O2(XLXN_7), 
+                                   .O3(XLXN_8));
+   (* HU_SET = "XLXI_3_44" *) 
+   INV4_HXILINX_MixBus16_4  XLXI_3 (.I0(XLXN_1), 
+                                   .I1(XLXN_2), 
+                                   .I2(XLXN_3), 
+                                   .I3(XLXN_4), 
+                                   .O0(A[3]), 
+                                   .O1(A[2]), 
+                                   .O2(A[1]), 
+                                   .O3(A[0]));
+   (* HU_SET = "XLXI_4_45" *) 
+   INV4_HXILINX_MixBus16_4  XLXI_4 (.I0(XLXN_5), 
+                                   .I1(XLXN_6), 
+                                   .I2(XLXN_7), 
+                                   .I3(XLXN_8), 
+                                   .O0(B[3]), 
+                                   .O1(B[2]), 
+                                   .O2(B[1]), 
+                                   .O3(B[0]));
+   (* HU_SET = "XLXI_5_46" *) 
+   INV4_HXILINX_MixBus16_4  XLXI_5 (.I0(BIT[11]), 
+                                   .I1(BIT[10]), 
+                                   .I2(BIT[9]), 
+                                   .I3(BIT[8]), 
+                                   .O0(XLXN_28), 
+                                   .O1(XLXN_27), 
+                                   .O2(XLXN_26), 
+                                   .O3(XLXN_25));
+   (* HU_SET = "XLXI_6_47" *) 
+   INV4_HXILINX_MixBus16_4  XLXI_6 (.I0(XLXN_28), 
+                                   .I1(XLXN_27), 
+                                   .I2(XLXN_26), 
+                                   .I3(XLXN_25), 
+                                   .O0(C[3]), 
+                                   .O1(C[2]), 
+                                   .O2(C[1]), 
+                                   .O3(C[0]));
+   (* HU_SET = "XLXI_7_48" *) 
+   INV4_HXILINX_MixBus16_4  XLXI_7 (.I0(BIT[15]), 
+                                   .I1(BIT[14]), 
+                                   .I2(BIT[13]), 
+                                   .I3(BIT[12]), 
+                                   .O0(XLXN_32), 
+                                   .O1(XLXN_31), 
+                                   .O2(XLXN_30), 
+                                   .O3(XLXN_29));
+   (* HU_SET = "XLXI_8_49" *) 
+   INV4_HXILINX_MixBus16_4  XLXI_8 (.I0(XLXN_32), 
+                                   .I1(XLXN_31), 
+                                   .I2(XLXN_30), 
+                                   .I3(XLXN_29), 
+                                   .O0(D[3]), 
+                                   .O1(D[2]), 
+                                   .O2(D[1]), 
+                                   .O3(D[0]));
+endmodule

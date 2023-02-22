@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="Bedroom">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2022-12-13T4:8:40</timestamp>
+    <pin polarity="Output" x="496" y="-160" name="Air_Bedroom(15:0)" />
+    <pin polarity="Output" x="496" y="-224" name="Air_output" />
+    <pin polarity="Input" x="0" y="-96" name="Hour_Set" />
+    <pin polarity="Output" x="496" y="-96" name="IR_Bedroom(15:0)" />
+    <pin polarity="Input" x="0" y="-224" name="IR_IN" />
+    <pin polarity="Output" x="496" y="-416" name="Lighing_Around" />
+    <pin polarity="Output" x="496" y="-352" name="Lighing_Out" />
+    <pin polarity="Output" x="496" y="-544" name="Lighting_Around(15:0)" />
+    <pin polarity="Output" x="496" y="-288" name="Lighting_Bedroom(15:0)" />
+    <pin polarity="Input" x="0" y="-288" name="Lighting_BT" />
+    <pin polarity="Input" x="0" y="-352" name="Minute_Set" />
+    <pin polarity="Output" x="496" y="-32" name="PIR_Bedroom(15:0)" />
+    <pin polarity="Input" x="0" y="-160" name="PIR_IN" />
+    <pin polarity="Input" x="0" y="-416" name="Reset_Watch" />
+    <pin polarity="Input" x="0" y="-480" name="Second_1Hz" />
+    <pin polarity="Input" x="0" y="-32" name="Select_20_23" />
+    <pin polarity="Input" x="0" y="-544" name="Select_Time_set" />
+    <pin polarity="Output" x="496" y="-480" name="Time(15:0)" />
+    <graph>
+        <rect width="368" x="64" y="-576" height="576" />
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="248" y="-584" type="symbol" />
+        <line x2="496" y1="-160" y2="-160" x1="432" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="424" y="-160" type="pin Air_Bedroom(15:0)" />
+        <rect width="64" x="432" y="-172" height="24" />
+        <line x2="496" y1="-224" y2="-224" x1="432" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="424" y="-224" type="pin Air_output" />
+        <line x2="0" y1="-96" y2="-96" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-96" type="pin Hour_Set" />
+        <line x2="496" y1="-96" y2="-96" x1="432" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="424" y="-96" type="pin IR_Bedroom(15:0)" />
+        <rect width="64" x="432" y="-108" height="24" />
+        <line x2="0" y1="-224" y2="-224" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-224" type="pin IR_IN" />
+        <line x2="496" y1="-416" y2="-416" x1="432" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="424" y="-416" type="pin Lighing_Around" />
+        <line x2="496" y1="-352" y2="-352" x1="432" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="424" y="-352" type="pin Lighing_Out" />
+        <line x2="496" y1="-544" y2="-544" x1="432" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="424" y="-544" type="pin Lighting_Around(15:0)" />
+        <rect width="64" x="432" y="-556" height="24" />
+        <line x2="496" y1="-288" y2="-288" x1="432" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="424" y="-288" type="pin Lighting_Bedroom(15:0)" />
+        <rect width="64" x="432" y="-300" height="24" />
+        <line x2="0" y1="-288" y2="-288" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-288" type="pin Lighting_BT" />
+        <line x2="0" y1="-352" y2="-352" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-352" type="pin Minute_Set" />
+        <line x2="496" y1="-32" y2="-32" x1="432" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="424" y="-32" type="pin PIR_Bedroom(15:0)" />
+        <rect width="64" x="432" y="-44" height="24" />
+        <line x2="0" y1="-160" y2="-160" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-160" type="pin PIR_IN" />
+        <line x2="0" y1="-416" y2="-416" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-416" type="pin Reset_Watch" />
+        <line x2="0" y1="-480" y2="-480" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-480" type="pin Second_1Hz" />
+        <line x2="0" y1="-32" y2="-32" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-32" type="pin Select_20_23" />
+        <line x2="0" y1="-544" y2="-544" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-544" type="pin Select_Time_set" />
+        <line x2="496" y1="-480" y2="-480" x1="432" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="424" y="-480" type="pin Time(15:0)" />
+        <rect width="64" x="432" y="-492" height="24" />
+    </graph>
+</symbol>

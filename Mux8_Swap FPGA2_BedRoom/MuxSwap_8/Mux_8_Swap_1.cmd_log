@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan6 -w -refsym Mux_8_Swap_1 C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Mux_8_Swap_1.sch C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Mux_8_Swap_1.sym 

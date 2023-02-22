@@ -1,0 +1,3 @@
+sch2sym -intstyle ise -family spartan6 -refsym Time_60_Second_And_Minute C:/Users/XickZenF5/Desktop/Naringka_setdaad/NaRingkaSetClock/Time_60_Second_And_Minute.sch C:/Users/XickZenF5/Desktop/Naringka_setdaad/NaRingkaSetClock/Time_60_Second_And_Minute.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym Time_60_Second_And_Minute C:/Users/XickZenF5/Desktop/Naringka_setdaad/NaRingkaSetClock/Time_60_Second_And_Minute.sch C:/Users/XickZenF5/Desktop/Naringka_setdaad/NaRingkaSetClock/Time_60_Second_And_Minute.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym Time_60_Second_And_Minute C:/Users/XickZenF5/Desktop/Naringka_setdaad/NaRingkaSetClock/Time_60_Second_And_Minute.sch C:/Users/XickZenF5/Desktop/Naringka_setdaad/NaRingkaSetClock/Time_60_Second_And_Minute.sym 

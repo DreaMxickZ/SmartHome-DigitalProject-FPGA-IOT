@@ -1,0 +1,3 @@
+sch2hdl,-intstyle,ise,-family,spartan6,-verilog,C:/Users/XickZenF5/Desktop/Mux8_Swap FPGA2_BedRoom/MuxSwap_8/Bedroom.vf,-w,C:/Users/XickZenF5/Desktop/Mux8_Swap FPGA2_BedRoom/MuxSwap_8/Bedroom.sch
+sch2hdl,-intstyle,ise,-family,spartan6,-verilog,C:/Users/XickZenF5/Desktop/Mux8_Swap FPGA2_BedRoom/MuxSwap_8/Main_Module.vf,-w,C:/Users/XickZenF5/Desktop/Mux8_Swap FPGA2_BedRoom/MuxSwap_8/Main_Module.sch
+sch2hdl,-intstyle,ise,-family,spartan6,-verilog,C:/Users/XickZenF5/Desktop/Mux8_Swap FPGA2_BedRoom/MuxSwap_8/Main_Module.vf,-w,C:/Users/XickZenF5/Desktop/Mux8_Swap FPGA2_BedRoom/MuxSwap_8/Main_Module.sch

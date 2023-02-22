@@ -1,0 +1,45 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Sun Dec 11 08:38:51 2022
+# Process ID: 4876
+# Log file: C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/planAhead_run_3/planAhead.log
+# Journal file: C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin P15 [get_ports IR_IN_P15]
+endgroup
+startgroup
+set_property package_pin P1 [get_ports P1]
+endgroup
+startgroup
+set_property package_pin P124 [get_ports P124]
+endgroup
+startgroup
+set_property package_pin P127 [get_ports P127]
+endgroup
+startgroup
+set_property package_pin P132 [get_ports P132]
+endgroup
+startgroup
+set_property package_pin P134 [get_ports P134]
+endgroup
+startgroup
+set_property package_pin P138 [get_ports P138]
+endgroup
+startgroup
+set_property package_pin P140 [get_ports P140]
+endgroup
+startgroup
+set_property package_pin P142 [get_ports P142]
+endgroup
+startgroup
+set_property package_pin P12 [get_ports PIR_IN_P12]
+endgroup
+startgroup
+set_property package_pin P56 [get_ports Select_Condition_Temp_P56]
+endgroup
+save_constraints

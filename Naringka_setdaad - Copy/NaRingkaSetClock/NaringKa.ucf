@@ -1,0 +1,23 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "COm0" LOC = P44;
+NET "COm1" LOC = P43;
+NET "COm2" LOC = P33;
+NET "COm3" LOC = P30;
+NET "Hour_Toggle" LOC = P45;
+NET "Minute_Toggle" LOC = P46;
+NET "P27" LOC = P27;
+NET "P29" LOC = P29;
+NET "P32" LOC = P32;
+NET "P34" LOC = P34;
+NET "P35" LOC = P35;
+NET "P40" LOC = P40;
+NET "P41" LOC = P41;
+NET "Point" LOC = P26;
+NET "SlideSet" LOC = P55;
+NET "XLXN_35" LOC = P123;
+NET "P24" LOC = P24;
+NET "LED0" LOC = P82;
+
+

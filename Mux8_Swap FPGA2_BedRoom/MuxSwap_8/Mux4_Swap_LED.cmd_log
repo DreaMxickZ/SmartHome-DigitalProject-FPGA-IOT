@@ -1,0 +1,2 @@
+sch2sym -intstyle ise -family spartan6 -refsym Mux4_Swap_LED C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Mux4_Swap_LED.sch C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Mux4_Swap_LED.sym 
+sch2sym -intstyle ise -family spartan6 -w -refsym Mux4_Swap_LED C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Mux4_Swap_LED.sch C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Mux4_Swap_LED.sym 

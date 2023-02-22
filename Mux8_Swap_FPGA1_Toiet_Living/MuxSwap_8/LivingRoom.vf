@@ -1,0 +1,414 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : LivingRoom.vf
+// /___/   /\     Timestamp : 12/11/2022 08:49:17
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/LivingRoom.vf -w C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/LivingRoom.sch
+//Design Name: LivingRoom
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale  100 ps / 10 ps
+
+module M2_1_HXILINX_LivingRoom (O, D0, D1, S0);
+    
+
+   output O;
+
+   input  D0;
+   input  D1;
+   input  S0;
+
+   reg O;
+
+   always @ ( D0 or D1 or S0)
+   begin
+      case(S0)
+      1'b0 : O <= D0;
+      1'b1 : O <= D1;
+      endcase
+   end
+    
+endmodule
+`timescale 1ns / 1ps
+
+module ON_OFF_NUMBER_MUSER_LivingRoom(IN_OFF_ON, 
+                                      SET_NUMBER_A_LSB, 
+                                      SET_NUMBER_B, 
+                                      SET_NUMBER_C, 
+                                      SET_NUMBER_D_MSD, 
+                                      ON_OFF);
+
+    input IN_OFF_ON;
+    input SET_NUMBER_A_LSB;
+    input SET_NUMBER_B;
+    input SET_NUMBER_C;
+    input SET_NUMBER_D_MSD;
+   output [15:0] ON_OFF;
+   
+   wire XLXN_22;
+   wire XLXN_23;
+   wire XLXN_24;
+   wire XLXN_25;
+   wire XLXN_26;
+   wire XLXN_27;
+   wire XLXN_28;
+   wire XLXN_29;
+   wire XLXN_30;
+   wire XLXN_31;
+   wire XLXN_32;
+   wire XLXN_33;
+   wire XLXN_34;
+   wire XLXN_35;
+   wire XLXN_36;
+   wire XLXN_37;
+   wire XLXN_38;
+   wire XLXN_39;
+   wire XLXN_40;
+   wire XLXN_41;
+   wire XLXN_45;
+   wire XLXN_46;
+   wire XLXN_47;
+   wire XLXN_48;
+   
+   (* HU_SET = "XLXI_1_42" *) 
+   M2_1_HXILINX_LivingRoom  XLXI_1 (.D0(XLXN_22), 
+                                   .D1(XLXN_48), 
+                                   .S0(IN_OFF_ON), 
+                                   .O(ON_OFF[0]));
+   (* HU_SET = "XLXI_2_43" *) 
+   M2_1_HXILINX_LivingRoom  XLXI_2 (.D0(XLXN_23), 
+                                   .D1(XLXN_47), 
+                                   .S0(IN_OFF_ON), 
+                                   .O(ON_OFF[1]));
+   (* HU_SET = "XLXI_3_44" *) 
+   M2_1_HXILINX_LivingRoom  XLXI_3 (.D0(XLXN_24), 
+                                   .D1(XLXN_46), 
+                                   .S0(IN_OFF_ON), 
+                                   .O(ON_OFF[2]));
+   (* HU_SET = "XLXI_4_45" *) 
+   M2_1_HXILINX_LivingRoom  XLXI_4 (.D0(XLXN_25), 
+                                   .D1(XLXN_45), 
+                                   .S0(IN_OFF_ON), 
+                                   .O(ON_OFF[3]));
+   (* HU_SET = "XLXI_5_46" *) 
+   M2_1_HXILINX_LivingRoom  XLXI_5 (.D0(XLXN_26), 
+                                   .D1(XLXN_41), 
+                                   .S0(IN_OFF_ON), 
+                                   .O(ON_OFF[4]));
+   (* HU_SET = "XLXI_6_47" *) 
+   M2_1_HXILINX_LivingRoom  XLXI_6 (.D0(XLXN_27), 
+                                   .D1(XLXN_40), 
+                                   .S0(IN_OFF_ON), 
+                                   .O(ON_OFF[5]));
+   (* HU_SET = "XLXI_7_48" *) 
+   M2_1_HXILINX_LivingRoom  XLXI_7 (.D0(XLXN_28), 
+                                   .D1(XLXN_39), 
+                                   .S0(IN_OFF_ON), 
+                                   .O(ON_OFF[6]));
+   (* HU_SET = "XLXI_8_49" *) 
+   M2_1_HXILINX_LivingRoom  XLXI_8 (.D0(XLXN_29), 
+                                   .D1(XLXN_38), 
+                                   .S0(IN_OFF_ON), 
+                                   .O(ON_OFF[7]));
+   (* HU_SET = "XLXI_9_50" *) 
+   M2_1_HXILINX_LivingRoom  XLXI_9 (.D0(XLXN_30), 
+                                   .D1(XLXN_37), 
+                                   .S0(IN_OFF_ON), 
+                                   .O(ON_OFF[8]));
+   (* HU_SET = "XLXI_10_51" *) 
+   M2_1_HXILINX_LivingRoom  XLXI_10 (.D0(XLXN_31), 
+                                    .D1(XLXN_36), 
+                                    .S0(IN_OFF_ON), 
+                                    .O(ON_OFF[9]));
+   (* HU_SET = "XLXI_21_52" *) 
+   M2_1_HXILINX_LivingRoom  XLXI_21 (.D0(XLXN_32), 
+                                    .D1(XLXN_35), 
+                                    .S0(IN_OFF_ON), 
+                                    .O(ON_OFF[10]));
+   (* HU_SET = "XLXI_22_53" *) 
+   M2_1_HXILINX_LivingRoom  XLXI_22 (.D0(XLXN_33), 
+                                    .D1(XLXN_34), 
+                                    .S0(IN_OFF_ON), 
+                                    .O(ON_OFF[11]));
+   VCC  XLXI_23 (.P(XLXN_22));
+   VCC  XLXI_24 (.P(XLXN_23));
+   VCC  XLXI_25 (.P(XLXN_24));
+   VCC  XLXI_26 (.P(XLXN_25));
+   VCC  XLXI_27 (.P(XLXN_26));
+   VCC  XLXI_28 (.P(XLXN_27));
+   VCC  XLXI_29 (.P(XLXN_28));
+   VCC  XLXI_30 (.P(XLXN_29));
+   GND  XLXI_31 (.G(XLXN_30));
+   GND  XLXI_32 (.G(XLXN_31));
+   GND  XLXI_33 (.G(XLXN_32));
+   GND  XLXI_34 (.G(XLXN_33));
+   GND  XLXI_36 (.G(XLXN_35));
+   GND  XLXI_39 (.G(XLXN_38));
+   GND  XLXI_40 (.G(XLXN_39));
+   GND  XLXI_41 (.G(XLXN_40));
+   GND  XLXI_42 (.G(XLXN_41));
+   VCC  XLXI_44 (.P(XLXN_47));
+   VCC  XLXI_46 (.P(XLXN_45));
+   GND  XLXI_47 (.G(XLXN_46));
+   GND  XLXI_48 (.G(XLXN_48));
+   BUF  XLXI_49 (.I(SET_NUMBER_A_LSB), 
+                .O(ON_OFF[12]));
+   BUF  XLXI_50 (.I(SET_NUMBER_B), 
+                .O(ON_OFF[13]));
+   BUF  XLXI_51 (.I(SET_NUMBER_C), 
+                .O(ON_OFF[14]));
+   BUF  XLXI_52 (.I(SET_NUMBER_D_MSD), 
+                .O(ON_OFF[15]));
+   VCC  XLXI_53 (.P(XLXN_34));
+   GND  XLXI_116 (.G());
+   VCC  XLXI_117 (.P(XLXN_36));
+   VCC  XLXI_118 (.P(XLXN_37));
+endmodule
+`timescale 1ns / 1ps
+
+module TempCheck_Living_MUSER_LivingRoom(Digit1_DHT_PIN1, 
+                                         Digit2_DHT_PIN142, 
+                                         Digit3_DHT_PIN140, 
+                                         Digit4_DHT_PIN138, 
+                                         Ten1_DHT_P134, 
+                                         Ten2_DHT_P132, 
+                                         Ten3_DHT_P127, 
+                                         Ten4_DHT_P124, 
+                                         Temp_Digit_1, 
+                                         Temp_Digit_2, 
+                                         Temp_Digit_3, 
+                                         Temp_Digit_4, 
+                                         Temp_Digit_5, 
+                                         Temp_Digit_6, 
+                                         Temp_Digit_7, 
+                                         Temp_Digit_8, 
+                                         TEMP_30_40);
+
+    input Digit1_DHT_PIN1;
+    input Digit2_DHT_PIN142;
+    input Digit3_DHT_PIN140;
+    input Digit4_DHT_PIN138;
+    input Ten1_DHT_P134;
+    input Ten2_DHT_P132;
+    input Ten3_DHT_P127;
+    input Ten4_DHT_P124;
+   output Temp_Digit_1;
+   output Temp_Digit_2;
+   output Temp_Digit_3;
+   output Temp_Digit_4;
+   output Temp_Digit_5;
+   output Temp_Digit_6;
+   output Temp_Digit_7;
+   output Temp_Digit_8;
+   output TEMP_30_40;
+   
+   wire XLXN_1;
+   wire XLXN_2;
+   wire XLXN_3;
+   wire XLXN_4;
+   wire XLXN_49;
+   wire XLXN_50;
+   wire XLXN_51;
+   wire XLXN_52;
+   wire XLXN_53;
+   wire XLXN_54;
+   
+   BUF  XLXI_1 (.I(Digit1_DHT_PIN1), 
+               .O(XLXN_1));
+   BUF  XLXI_2 (.I(Digit2_DHT_PIN142), 
+               .O(XLXN_2));
+   BUF  XLXI_3 (.I(Digit3_DHT_PIN140), 
+               .O(XLXN_3));
+   BUF  XLXI_4 (.I(Digit4_DHT_PIN138), 
+               .O(XLXN_4));
+   BUF  XLXI_5 (.I(Ten1_DHT_P134), 
+               .O(XLXN_50));
+   BUF  XLXI_6 (.I(Ten2_DHT_P132), 
+               .O(XLXN_51));
+   BUF  XLXI_7 (.I(Ten4_DHT_P124), 
+               .O(XLXN_52));
+   BUF  XLXI_8 (.I(Ten3_DHT_P127), 
+               .O(XLXN_49));
+   BUF  XLXI_65 (.I(XLXN_52), 
+                .O(Temp_Digit_8));
+   BUF  XLXI_66 (.I(XLXN_49), 
+                .O(Temp_Digit_7));
+   BUF  XLXI_67 (.I(XLXN_51), 
+                .O(Temp_Digit_6));
+   BUF  XLXI_68 (.I(XLXN_50), 
+                .O(Temp_Digit_5));
+   BUF  XLXI_69 (.I(XLXN_4), 
+                .O(Temp_Digit_4));
+   BUF  XLXI_70 (.I(XLXN_3), 
+                .O(Temp_Digit_3));
+   BUF  XLXI_71 (.I(XLXN_2), 
+                .O(Temp_Digit_2));
+   BUF  XLXI_72 (.I(XLXN_1), 
+                .O(Temp_Digit_1));
+   AND4B2  XLXI_91 (.I0(XLXN_52), 
+                   .I1(XLXN_49), 
+                   .I2(XLXN_51), 
+                   .I3(XLXN_50), 
+                   .O(XLXN_53));
+   AND4B3  XLXI_92 (.I0(XLXN_52), 
+                   .I1(XLXN_51), 
+                   .I2(XLXN_50), 
+                   .I3(XLXN_49), 
+                   .O(XLXN_54));
+   OR2  XLXI_93 (.I0(XLXN_54), 
+                .I1(XLXN_53), 
+                .O(TEMP_30_40));
+endmodule
+`timescale 1ns / 1ps
+
+module LivingRoom(Digit1_DHT_P1, 
+                  Digit2_DHT_P142, 
+                  Digit3_DHT_P140, 
+                  Digit4_DHT_P138, 
+                  IR_IN_PUT, 
+                  PIR_IN_PUT, 
+                  Select_Not_Temp_Condition, 
+                  Ten1_DHT_P134, 
+                  Ten2_DHT_P132, 
+                  Ten3_DHT_P124, 
+                  Ten3_DHT_P127, 
+                  FAN_Living, 
+                  Fan_Output, 
+                  IR_Living, 
+                  PIR_Living, 
+                  Temp);
+
+    input Digit1_DHT_P1;
+    input Digit2_DHT_P142;
+    input Digit3_DHT_P140;
+    input Digit4_DHT_P138;
+    input IR_IN_PUT;
+    input PIR_IN_PUT;
+    input Select_Not_Temp_Condition;
+    input Ten1_DHT_P134;
+    input Ten2_DHT_P132;
+    input Ten3_DHT_P124;
+    input Ten3_DHT_P127;
+   output [15:0] FAN_Living;
+   output Fan_Output;
+   output [15:0] IR_Living;
+   output [15:0] PIR_Living;
+   output [15:0] Temp;
+   
+   wire XLXN_91;
+   wire XLXN_92;
+   wire XLXN_97;
+   wire XLXN_98;
+   wire XLXN_100;
+   wire XLXN_101;
+   wire XLXN_102;
+   wire XLXN_104;
+   wire XLXN_105;
+   wire XLXN_106;
+   wire XLXN_110;
+   wire XLXN_111;
+   wire XLXN_112;
+   wire XLXN_113;
+   wire XLXN_114;
+   wire XLXN_115;
+   wire XLXN_116;
+   wire XLXN_117;
+   wire XLXN_118;
+   wire XLXN_119;
+   wire XLXN_120;
+   wire XLXN_121;
+   
+   TempCheck_Living_MUSER_LivingRoom  XLXI_114 
+         (.Digit1_DHT_PIN1(Digit1_DHT_P1), 
+                                               
+         .Digit2_DHT_PIN142(Digit2_DHT_P142), 
+                                               
+         .Digit3_DHT_PIN140(Digit3_DHT_P140), 
+                                               
+         .Digit4_DHT_PIN138(Digit4_DHT_P138), 
+                                               .Ten1_DHT_P134(Ten1_DHT_P134), 
+                                               .Ten2_DHT_P132(Ten2_DHT_P132), 
+                                               .Ten3_DHT_P127(Ten3_DHT_P127), 
+                                               .Ten4_DHT_P124(Ten3_DHT_P124), 
+                                               .Temp_Digit_1(Temp[4]), 
+                                               .Temp_Digit_2(Temp[5]), 
+                                               .Temp_Digit_3(Temp[6]), 
+                                               .Temp_Digit_4(Temp[7]), 
+                                               .Temp_Digit_5(Temp[8]), 
+                                               .Temp_Digit_6(Temp[9]), 
+                                               .Temp_Digit_7(Temp[10]), 
+                                               .Temp_Digit_8(Temp[11]), 
+                                               .TEMP_30_40(XLXN_91));
+   BUF  XLXI_115 (.I(XLXN_91), 
+                 .O(XLXN_92));
+   BUF  XLXI_116 (.I(XLXN_92), 
+                 .O(XLXN_102));
+   BUF  XLXI_118 (.I(XLXN_104), 
+                 .O(XLXN_97));
+   BUF  XLXI_119 (.I(PIR_IN_PUT), 
+                 .O(XLXN_105));
+   BUF  XLXI_120 (.I(XLXN_105), 
+                 .O(XLXN_98));
+   OR2  XLXI_121 (.I0(XLXN_98), 
+                 .I1(XLXN_97), 
+                 .O(XLXN_100));
+   INV  XLXI_122 (.I(IR_IN_PUT), 
+                 .O(XLXN_104));
+   AND2  XLXI_123 (.I0(XLXN_100), 
+                  .I1(XLXN_101), 
+                  .O(XLXN_106));
+   OR2  XLXI_124 (.I0(Select_Not_Temp_Condition), 
+                 .I1(XLXN_102), 
+                 .O(XLXN_101));
+   ON_OFF_NUMBER_MUSER_LivingRoom  XLXI_125 (.IN_OFF_ON(XLXN_106), 
+                                            .SET_NUMBER_A_LSB(XLXN_121), 
+                                            .SET_NUMBER_B(XLXN_120), 
+                                            .SET_NUMBER_C(XLXN_118), 
+                                            .SET_NUMBER_D_MSD(XLXN_119), 
+                                            .ON_OFF(FAN_Living[15:0]));
+   ON_OFF_NUMBER_MUSER_LivingRoom  XLXI_126 (.IN_OFF_ON(XLXN_104), 
+                                            .SET_NUMBER_A_LSB(XLXN_112), 
+                                            .SET_NUMBER_B(XLXN_111), 
+                                            .SET_NUMBER_C(XLXN_110), 
+                                            .SET_NUMBER_D_MSD(XLXN_117), 
+                                            .ON_OFF(IR_Living[15:0]));
+   ON_OFF_NUMBER_MUSER_LivingRoom  XLXI_127 (.IN_OFF_ON(XLXN_105), 
+                                            .SET_NUMBER_A_LSB(XLXN_116), 
+                                            .SET_NUMBER_B(XLXN_115), 
+                                            .SET_NUMBER_C(XLXN_114), 
+                                            .SET_NUMBER_D_MSD(XLXN_113), 
+                                            .ON_OFF(PIR_Living[15:0]));
+   VCC  XLXI_128 (.P(XLXN_110));
+   VCC  XLXI_130 (.P(XLXN_111));
+   VCC  XLXI_131 (.P(XLXN_112));
+   VCC  XLXI_132 (.P(XLXN_113));
+   GND  XLXI_133 (.G(XLXN_114));
+   GND  XLXI_135 (.G(XLXN_115));
+   GND  XLXI_136 (.G(XLXN_116));
+   GND  XLXI_137 (.G(XLXN_117));
+   GND  XLXI_138 (.G(XLXN_118));
+   GND  XLXI_139 (.G(XLXN_119));
+   VCC  XLXI_140 (.P(XLXN_120));
+   VCC  XLXI_141 (.P(XLXN_121));
+   BUF  XLXI_142 (.I(XLXN_106), 
+                 .O(Fan_Output));
+   VCC  XLXI_143 (.P(Temp[12]));
+   GND  XLXI_144 (.G(Temp[13]));
+   GND  XLXI_145 (.G(Temp[14]));
+   GND  XLXI_146 (.G(Temp[15]));
+   VCC  XLXI_147 (.P(Temp[3]));
+   VCC  XLXI_148 (.P(Temp[2]));
+   GND  XLXI_149 (.G(Temp[1]));
+   GND  XLXI_150 (.G(Temp[0]));
+endmodule

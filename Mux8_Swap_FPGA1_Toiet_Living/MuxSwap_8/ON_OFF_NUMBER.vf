@@ -1,0 +1,177 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : ON_OFF_NUMBER.vf
+// /___/   /\     Timestamp : 12/11/2022 06:50:09
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/ON_OFF_NUMBER.vf -w C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/ON_OFF_NUMBER.sch
+//Design Name: ON_OFF_NUMBER
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale  100 ps / 10 ps
+
+module M2_1_HXILINX_ON_OFF_NUMBER (O, D0, D1, S0);
+    
+
+   output O;
+
+   input  D0;
+   input  D1;
+   input  S0;
+
+   reg O;
+
+   always @ ( D0 or D1 or S0)
+   begin
+      case(S0)
+      1'b0 : O <= D0;
+      1'b1 : O <= D1;
+      endcase
+   end
+    
+endmodule
+`timescale 1ns / 1ps
+
+module ON_OFF_NUMBER(IN_OFF_ON, 
+                     SET_NUMBER_A_LSB, 
+                     SET_NUMBER_B, 
+                     SET_NUMBER_C, 
+                     SET_NUMBER_D_MSD, 
+                     ON_OFF);
+
+    input IN_OFF_ON;
+    input SET_NUMBER_A_LSB;
+    input SET_NUMBER_B;
+    input SET_NUMBER_C;
+    input SET_NUMBER_D_MSD;
+   output [15:0] ON_OFF;
+   
+   wire XLXN_22;
+   wire XLXN_23;
+   wire XLXN_24;
+   wire XLXN_25;
+   wire XLXN_26;
+   wire XLXN_27;
+   wire XLXN_28;
+   wire XLXN_29;
+   wire XLXN_30;
+   wire XLXN_31;
+   wire XLXN_32;
+   wire XLXN_33;
+   wire XLXN_34;
+   wire XLXN_35;
+   wire XLXN_36;
+   wire XLXN_37;
+   wire XLXN_38;
+   wire XLXN_39;
+   wire XLXN_40;
+   wire XLXN_41;
+   wire XLXN_45;
+   wire XLXN_46;
+   wire XLXN_47;
+   wire XLXN_48;
+   
+   (* HU_SET = "XLXI_1_0" *) 
+   M2_1_HXILINX_ON_OFF_NUMBER  XLXI_1 (.D0(XLXN_22), 
+                                      .D1(XLXN_48), 
+                                      .S0(IN_OFF_ON), 
+                                      .O(ON_OFF[0]));
+   (* HU_SET = "XLXI_2_1" *) 
+   M2_1_HXILINX_ON_OFF_NUMBER  XLXI_2 (.D0(XLXN_23), 
+                                      .D1(XLXN_47), 
+                                      .S0(IN_OFF_ON), 
+                                      .O(ON_OFF[1]));
+   (* HU_SET = "XLXI_3_2" *) 
+   M2_1_HXILINX_ON_OFF_NUMBER  XLXI_3 (.D0(XLXN_24), 
+                                      .D1(XLXN_46), 
+                                      .S0(IN_OFF_ON), 
+                                      .O(ON_OFF[2]));
+   (* HU_SET = "XLXI_4_3" *) 
+   M2_1_HXILINX_ON_OFF_NUMBER  XLXI_4 (.D0(XLXN_25), 
+                                      .D1(XLXN_45), 
+                                      .S0(IN_OFF_ON), 
+                                      .O(ON_OFF[3]));
+   (* HU_SET = "XLXI_5_4" *) 
+   M2_1_HXILINX_ON_OFF_NUMBER  XLXI_5 (.D0(XLXN_26), 
+                                      .D1(XLXN_41), 
+                                      .S0(IN_OFF_ON), 
+                                      .O(ON_OFF[4]));
+   (* HU_SET = "XLXI_6_5" *) 
+   M2_1_HXILINX_ON_OFF_NUMBER  XLXI_6 (.D0(XLXN_27), 
+                                      .D1(XLXN_40), 
+                                      .S0(IN_OFF_ON), 
+                                      .O(ON_OFF[5]));
+   (* HU_SET = "XLXI_7_6" *) 
+   M2_1_HXILINX_ON_OFF_NUMBER  XLXI_7 (.D0(XLXN_28), 
+                                      .D1(XLXN_39), 
+                                      .S0(IN_OFF_ON), 
+                                      .O(ON_OFF[6]));
+   (* HU_SET = "XLXI_8_7" *) 
+   M2_1_HXILINX_ON_OFF_NUMBER  XLXI_8 (.D0(XLXN_29), 
+                                      .D1(XLXN_38), 
+                                      .S0(IN_OFF_ON), 
+                                      .O(ON_OFF[7]));
+   (* HU_SET = "XLXI_9_8" *) 
+   M2_1_HXILINX_ON_OFF_NUMBER  XLXI_9 (.D0(XLXN_30), 
+                                      .D1(XLXN_37), 
+                                      .S0(IN_OFF_ON), 
+                                      .O(ON_OFF[8]));
+   (* HU_SET = "XLXI_10_9" *) 
+   M2_1_HXILINX_ON_OFF_NUMBER  XLXI_10 (.D0(XLXN_31), 
+                                       .D1(XLXN_36), 
+                                       .S0(IN_OFF_ON), 
+                                       .O(ON_OFF[9]));
+   (* HU_SET = "XLXI_21_10" *) 
+   M2_1_HXILINX_ON_OFF_NUMBER  XLXI_21 (.D0(XLXN_32), 
+                                       .D1(XLXN_35), 
+                                       .S0(IN_OFF_ON), 
+                                       .O(ON_OFF[10]));
+   (* HU_SET = "XLXI_22_11" *) 
+   M2_1_HXILINX_ON_OFF_NUMBER  XLXI_22 (.D0(XLXN_33), 
+                                       .D1(XLXN_34), 
+                                       .S0(IN_OFF_ON), 
+                                       .O(ON_OFF[11]));
+   VCC  XLXI_23 (.P(XLXN_22));
+   VCC  XLXI_24 (.P(XLXN_23));
+   VCC  XLXI_25 (.P(XLXN_24));
+   VCC  XLXI_26 (.P(XLXN_25));
+   VCC  XLXI_27 (.P(XLXN_26));
+   VCC  XLXI_28 (.P(XLXN_27));
+   VCC  XLXI_29 (.P(XLXN_28));
+   VCC  XLXI_30 (.P(XLXN_29));
+   GND  XLXI_31 (.G(XLXN_30));
+   GND  XLXI_32 (.G(XLXN_31));
+   GND  XLXI_33 (.G(XLXN_32));
+   GND  XLXI_34 (.G(XLXN_33));
+   GND  XLXI_36 (.G(XLXN_35));
+   GND  XLXI_39 (.G(XLXN_38));
+   GND  XLXI_40 (.G(XLXN_39));
+   GND  XLXI_41 (.G(XLXN_40));
+   GND  XLXI_42 (.G(XLXN_41));
+   VCC  XLXI_44 (.P(XLXN_47));
+   VCC  XLXI_46 (.P(XLXN_45));
+   GND  XLXI_47 (.G(XLXN_46));
+   GND  XLXI_48 (.G(XLXN_48));
+   BUF  XLXI_49 (.I(SET_NUMBER_A_LSB), 
+                .O(ON_OFF[12]));
+   BUF  XLXI_50 (.I(SET_NUMBER_B), 
+                .O(ON_OFF[13]));
+   BUF  XLXI_51 (.I(SET_NUMBER_C), 
+                .O(ON_OFF[14]));
+   BUF  XLXI_52 (.I(SET_NUMBER_D_MSD), 
+                .O(ON_OFF[15]));
+   VCC  XLXI_53 (.P(XLXN_34));
+   GND  XLXI_116 (.G());
+   VCC  XLXI_117 (.P(XLXN_36));
+   VCC  XLXI_118 (.P(XLXN_37));
+endmodule

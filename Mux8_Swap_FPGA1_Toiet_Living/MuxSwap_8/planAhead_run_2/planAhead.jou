@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Sun Dec 11 05:58:13 2022
+# Process ID: 4732
+# Log file: C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin P24 [get_ports DOOR_PIN_24]
+endgroup
+startgroup
+set_property package_pin P22 [get_ports IR_PIN_22]
+endgroup
+startgroup
+set_property package_pin P17 [get_ports PIR_PIN_17]
+endgroup
+save_constraints

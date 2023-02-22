@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Tue Dec 13 03:57:43 2022
+# Process ID: 1420
+# Log file: C:/Users/XickZenF5/Desktop/Mux8_Swap_FPGA1_Toiet_Living/MuxSwap_8/planAhead_run_5/planAhead.log
+# Journal file: C:/Users/XickZenF5/Desktop/Mux8_Swap_FPGA1_Toiet_Living/MuxSwap_8/planAhead_run_5/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/XickZenF5/Desktop/Mux8_Swap_FPGA1_Toiet_Living/MuxSwap_8/pa.fromHdl.tcl
+update_compile_order -fileset sim_1

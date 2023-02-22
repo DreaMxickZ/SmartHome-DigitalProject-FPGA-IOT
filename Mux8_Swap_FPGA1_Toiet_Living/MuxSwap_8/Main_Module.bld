@@ -1,0 +1,59 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -nt timestamp -uc Main_Module.ucf -p xc6slx9-tqg144-3
+Main_Module.ngc Main_Module.ngd
+
+Reading NGO file
+"C:/Users/XickZenF5/Desktop/Mux8_Swap_FPGA1_Toiet_Living/MuxSwap_8/Main_Module.n
+gc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "Main_Module.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+WARNING:NgdBuild:452 - logical net 'XLXI_11/XLXI_12/XLXN_27' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_11/XLXI_12/XLXN_3' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_11/XLXI_12/XLXN_1' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_11/XLXI_13/XLXN_27' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_11/XLXI_13/XLXN_3' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_11/XLXI_13/XLXN_1' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_11/XLXI_14/XLXN_27' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_11/XLXI_14/XLXN_3' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_11/XLXI_14/XLXN_1' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_11/XLXI_15/XLXN_27' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_11/XLXI_15/XLXN_3' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_11/XLXI_15/XLXN_1' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_11/XLXI_18/XLXN_27' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_11/XLXI_18/XLXN_3' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_11/XLXI_18/XLXN_1' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_11/XLXI_19/XLXN_27' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_11/XLXI_19/XLXN_3' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_11/XLXI_19/XLXN_1' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_11/XLXI_17/XLXN_27' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_11/XLXI_17/XLXN_3' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_11/XLXI_17/XLXN_1' has no driver
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:  21
+
+Total memory usage is 4397104 kilobytes
+
+Writing NGD file "Main_Module.ngd" ...
+Total REAL time to NGDBUILD completion:  4 sec
+Total CPU time to NGDBUILD completion:   3 sec
+
+Writing NGDBUILD log file "Main_Module.bld"...

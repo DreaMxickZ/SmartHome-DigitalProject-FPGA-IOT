@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan6 -w -refsym Mixbus4_16_1 {C:/Users/XickZenF5/Desktop/Mux8_Swap FPGA2_BedRoom/MuxSwap_8/Mixbus4_16_1.sch} {C:/Users/XickZenF5/Desktop/Mux8_Swap FPGA2_BedRoom/MuxSwap_8/Mixbus4_16_1.sym} 

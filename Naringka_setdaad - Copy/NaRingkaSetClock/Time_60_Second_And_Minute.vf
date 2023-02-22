@@ -1,0 +1,250 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Time_60_Second_And_Minute.vf
+// /___/   /\     Timestamp : 12/12/2022 01:33:27
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog "C:/Users/XickZenF5/Desktop/Naringka_setdaad - Copy/NaRingkaSetClock/Time_60_Second_And_Minute.vf" -w "C:/Users/XickZenF5/Desktop/Naringka_setdaad - Copy/NaRingkaSetClock/Time_60_Second_And_Minute.sch"
+//Design Name: Time_60_Second_And_Minute
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 100 ps / 10 ps
+
+module FJKC_HXILINX_Time_60_Second_And_Minute(Q, C, CLR, J, K);
+   
+   output             Q;
+
+   input 	      C;	
+   input 	      CLR;	
+   input              J;
+   input              K;
+   
+   parameter INIT = 1'b0;
+   reg                Q = INIT;
+
+
+   always @(posedge C or posedge CLR)
+     begin
+	if (CLR)
+	  Q <= 1'b0;
+	else
+        begin
+           if(!J)
+           begin
+              if(K)
+              Q <= 1'b0;
+           end
+           else
+           begin
+              if(!K)
+              Q <= 1'b1;
+              else 
+              Q <= !Q;
+           end
+        end
+     end
+   
+endmodule
+`timescale 1ns / 1ps
+
+module Counter0_9_CLR_TC_MUSER_Time_60_Second_And_Minute(RESET_CLR_clk, 
+                                                         SW_INCLK, 
+                                                         BIT_OUT_Counter, 
+                                                         TC_Counter);
+
+    input RESET_CLR_clk;
+    input SW_INCLK;
+   output [3:0] BIT_OUT_Counter;
+   output TC_Counter;
+   
+   wire XLXN_2;
+   wire XLXN_10;
+   wire XLXN_11;
+   wire XLXN_14;
+   wire XLXN_18;
+   wire XLXN_21;
+   wire XLXN_27;
+   wire [3:0] BIT_OUT_Counter_DUMMY;
+   
+   assign BIT_OUT_Counter[3:0] = BIT_OUT_Counter_DUMMY[3:0];
+   (* HU_SET = "XLXI_1_76" *) 
+   FJKC_HXILINX_Time_60_Second_And_Minute  XLXI_1 (.C(XLXN_10), 
+                                                  .CLR(XLXN_2), 
+                                                  .J(XLXN_14), 
+                                                  .K(XLXN_14), 
+                                                  .Q(BIT_OUT_Counter_DUMMY[0]));
+   (* HU_SET = "XLXI_2_77" *) 
+   FJKC_HXILINX_Time_60_Second_And_Minute  XLXI_2 (.C(XLXN_10), 
+                                                  .CLR(XLXN_2), 
+                                                  .J(BIT_OUT_Counter_DUMMY[0]), 
+                                                  .K(BIT_OUT_Counter_DUMMY[0]), 
+                                                  .Q(BIT_OUT_Counter_DUMMY[1]));
+   (* HU_SET = "XLXI_3_78" *) 
+   FJKC_HXILINX_Time_60_Second_And_Minute  XLXI_3 (.C(XLXN_10), 
+                                                  .CLR(XLXN_2), 
+                                                  .J(XLXN_18), 
+                                                  .K(XLXN_18), 
+                                                  .Q(BIT_OUT_Counter_DUMMY[2]));
+   (* HU_SET = "XLXI_4_79" *) 
+   FJKC_HXILINX_Time_60_Second_And_Minute  XLXI_4 (.C(XLXN_10), 
+                                                  .CLR(XLXN_2), 
+                                                  .J(XLXN_21), 
+                                                  .K(XLXN_21), 
+                                                  .Q(BIT_OUT_Counter_DUMMY[3]));
+   OR2  XLXI_5 (.I0(RESET_CLR_clk), 
+               .I1(XLXN_27), 
+               .O(XLXN_2));
+   AND2  XLXI_6 (.I0(SW_INCLK), 
+                .I1(XLXN_11), 
+                .O(XLXN_10));
+   VCC  XLXI_7 (.P(XLXN_11));
+   VCC  XLXI_8 (.P(XLXN_14));
+   AND2  XLXI_9 (.I0(BIT_OUT_Counter_DUMMY[1]), 
+                .I1(BIT_OUT_Counter_DUMMY[0]), 
+                .O(XLXN_18));
+   AND3  XLXI_10 (.I0(BIT_OUT_Counter_DUMMY[2]), 
+                 .I1(BIT_OUT_Counter_DUMMY[0]), 
+                 .I2(BIT_OUT_Counter_DUMMY[1]), 
+                 .O(XLXN_21));
+   BUF  XLXI_12 (.I(XLXN_27), 
+                .O(TC_Counter));
+   AND4B2  XLXI_13 (.I0(BIT_OUT_Counter_DUMMY[0]), 
+                   .I1(BIT_OUT_Counter_DUMMY[2]), 
+                   .I2(BIT_OUT_Counter_DUMMY[3]), 
+                   .I3(BIT_OUT_Counter_DUMMY[1]), 
+                   .O(XLXN_27));
+endmodule
+`timescale 1ns / 1ps
+
+module Counter0_5_CLR_TC_MUSER_Time_60_Second_And_Minute(RESET_CLR_clk, 
+                                                         SW_INCLK, 
+                                                         BIT_OUT_Counter, 
+                                                         TC_Counter);
+
+    input RESET_CLR_clk;
+    input SW_INCLK;
+   output [3:0] BIT_OUT_Counter;
+   output TC_Counter;
+   
+   wire XLXN_1;
+   wire XLXN_6;
+   wire XLXN_7;
+   wire XLXN_9;
+   wire XLXN_12;
+   wire XLXN_21;
+   wire XLXN_29;
+   wire [3:0] BIT_OUT_Counter_DUMMY;
+   
+   assign BIT_OUT_Counter[3:0] = BIT_OUT_Counter_DUMMY[3:0];
+   (* HU_SET = "XLXI_1_80" *) 
+   FJKC_HXILINX_Time_60_Second_And_Minute  XLXI_1 (.C(XLXN_6), 
+                                                  .CLR(XLXN_1), 
+                                                  .J(XLXN_9), 
+                                                  .K(XLXN_9), 
+                                                  .Q(BIT_OUT_Counter_DUMMY[0]));
+   (* HU_SET = "XLXI_2_81" *) 
+   FJKC_HXILINX_Time_60_Second_And_Minute  XLXI_2 (.C(XLXN_6), 
+                                                  .CLR(XLXN_1), 
+                                                  .J(BIT_OUT_Counter_DUMMY[0]), 
+                                                  .K(BIT_OUT_Counter_DUMMY[0]), 
+                                                  .Q(BIT_OUT_Counter_DUMMY[1]));
+   (* HU_SET = "XLXI_3_82" *) 
+   FJKC_HXILINX_Time_60_Second_And_Minute  XLXI_3 (.C(XLXN_6), 
+                                                  .CLR(XLXN_1), 
+                                                  .J(XLXN_12), 
+                                                  .K(XLXN_12), 
+                                                  .Q(BIT_OUT_Counter_DUMMY[2]));
+   OR2  XLXI_4 (.I0(RESET_CLR_clk), 
+               .I1(XLXN_29), 
+               .O(XLXN_1));
+   AND2  XLXI_5 (.I0(SW_INCLK), 
+                .I1(XLXN_7), 
+                .O(XLXN_6));
+   VCC  XLXI_6 (.P(XLXN_7));
+   VCC  XLXI_7 (.P(XLXN_9));
+   AND2  XLXI_8 (.I0(BIT_OUT_Counter_DUMMY[1]), 
+                .I1(BIT_OUT_Counter_DUMMY[0]), 
+                .O(XLXN_12));
+   (* HU_SET = "XLXI_9_83" *) 
+   FJKC_HXILINX_Time_60_Second_And_Minute  XLXI_9 (.C(XLXN_6), 
+                                                  .CLR(XLXN_1), 
+                                                  .J(XLXN_21), 
+                                                  .K(XLXN_21), 
+                                                  .Q(BIT_OUT_Counter_DUMMY[3]));
+   AND3  XLXI_10 (.I0(BIT_OUT_Counter_DUMMY[2]), 
+                 .I1(BIT_OUT_Counter_DUMMY[0]), 
+                 .I2(BIT_OUT_Counter_DUMMY[1]), 
+                 .O(XLXN_21));
+   BUF  XLXI_12 (.I(XLXN_29), 
+                .O(TC_Counter));
+   AND2  XLXI_13 (.I0(BIT_OUT_Counter_DUMMY[2]), 
+                 .I1(BIT_OUT_Counter_DUMMY[1]), 
+                 .O(XLXN_29));
+endmodule
+`timescale 1ns / 1ps
+
+module Time_60_Second_And_Minute(CLK_to_1_Sec, 
+                                 CLR_Reset, 
+                                 Select_Toggle_Minute, 
+                                 Digit_Minute, 
+                                 TC_60_Minute, 
+                                 Ten_Minute);
+
+    input CLK_to_1_Sec;
+    input CLR_Reset;
+    input Select_Toggle_Minute;
+   output [3:0] Digit_Minute;
+   output TC_60_Minute;
+   output [3:0] Ten_Minute;
+   
+   wire XLXN_17;
+   wire XLXN_18;
+   wire XLXN_43;
+   wire XLXN_46;
+   
+   Counter0_5_CLR_TC_MUSER_Time_60_Second_And_Minute  XLXI_2 
+         (.RESET_CLR_clk(CLR_Reset), 
+                                                             
+         .SW_INCLK(XLXN_43), 
+                                                             
+         .BIT_OUT_Counter(), 
+                                                             
+         .TC_Counter(XLXN_18));
+   Counter0_5_CLR_TC_MUSER_Time_60_Second_And_Minute  XLXI_4 
+         (.RESET_CLR_clk(CLR_Reset), 
+                                                             
+         .SW_INCLK(XLXN_46), 
+                                                             
+         .BIT_OUT_Counter(Ten_Minute[3:0]), 
+                                                             
+         .TC_Counter(TC_60_Minute));
+   OR2  XLXI_5 (.I0(Select_Toggle_Minute), 
+               .I1(XLXN_18), 
+               .O(XLXN_17));
+   Counter0_9_CLR_TC_MUSER_Time_60_Second_And_Minute  XLXI_6 
+         (.RESET_CLR_clk(CLR_Reset), 
+                                                             
+         .SW_INCLK(CLK_to_1_Sec), 
+                                                             
+         .BIT_OUT_Counter(), 
+                                                             
+         .TC_Counter(XLXN_43));
+   Counter0_9_CLR_TC_MUSER_Time_60_Second_And_Minute  XLXI_7 
+         (.RESET_CLR_clk(CLR_Reset), 
+                                                             
+         .SW_INCLK(XLXN_17), 
+                                                             
+         .BIT_OUT_Counter(Digit_Minute[3:0]), 
+                                                             
+         .TC_Counter(XLXN_46));
+endmodule

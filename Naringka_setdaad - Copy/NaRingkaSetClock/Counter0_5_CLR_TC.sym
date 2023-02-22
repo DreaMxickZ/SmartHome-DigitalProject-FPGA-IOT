@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="Counter0_5_CLR_TC">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2022-12-9T18:40:46</timestamp>
+    <pin polarity="Input" x="0" y="-96" name="SW_INCLK" />
+    <pin polarity="Input" x="0" y="-32" name="RESET_CLR_clk" />
+    <pin polarity="Output" x="544" y="-96" name="BIT_OUT_Counter(3:0)" />
+    <pin polarity="Output" x="544" y="-32" name="TC_Counter" />
+    <graph>
+        <rect width="416" x="64" y="-128" height="128" />
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="272" y="-136" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-96" type="pin SW_INCLK" />
+        <line x2="0" y1="-96" y2="-96" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-32" type="pin RESET_CLR_clk" />
+        <line x2="0" y1="-32" y2="-32" x1="64" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="472" y="-96" type="pin BIT_OUT_Counter(3:0)" />
+        <rect width="64" x="480" y="-108" height="24" />
+        <line x2="544" y1="-96" y2="-96" x1="480" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="472" y="-32" type="pin TC_Counter" />
+        <line x2="544" y1="-32" y2="-32" x1="480" />
+    </graph>
+</symbol>

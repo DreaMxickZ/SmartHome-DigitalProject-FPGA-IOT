@@ -1,0 +1,208 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml Main_Module.twx Main_Module.ncd -o Main_Module.twr
+Main_Module.pcf -ucf Main_Module.ucf
+
+Design file:              Main_Module.ncd
+Physical constraint file: Main_Module.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock P45
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+P46         |    1.623(R)|      SLOW  |   -0.803(R)|      FAST  |P45_IBUF          |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock P45 to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+P27         |        13.834(R)|      SLOW  |         5.875(R)|      FAST  |P45_IBUF          |   0.000|
+P29         |        14.350(R)|      SLOW  |         6.196(R)|      FAST  |P45_IBUF          |   0.000|
+P32         |        14.936(R)|      SLOW  |         6.415(R)|      FAST  |P45_IBUF          |   0.000|
+P34         |        14.898(R)|      SLOW  |         6.369(R)|      FAST  |P45_IBUF          |   0.000|
+P35         |        15.023(R)|      SLOW  |         6.472(R)|      FAST  |P45_IBUF          |   0.000|
+P40         |        15.241(R)|      SLOW  |         6.738(R)|      FAST  |P45_IBUF          |   0.000|
+P41         |        15.185(R)|      SLOW  |         6.727(R)|      FAST  |P45_IBUF          |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock Osc
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Osc            |    1.800|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock P45
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+P45            |    1.801|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+-------------------------+---------------------+---------+
+Source Pad               |Destination Pad      |  Delay  |
+-------------------------+---------------------+---------+
+DOOR_PIN_24              |Lighting_Toilet_Relay|    7.635|
+DOOR_PIN_24              |Lnk_Toi              |    8.122|
+DOOR_PIN_24              |P27                  |   10.996|
+DOOR_PIN_24              |P29                  |   11.512|
+DOOR_PIN_24              |P32                  |   12.098|
+DOOR_PIN_24              |P34                  |   12.060|
+DOOR_PIN_24              |P35                  |   12.185|
+DOOR_PIN_24              |P40                  |   12.403|
+DOOR_PIN_24              |P41                  |   12.347|
+IR_IN_P15                |Link_Living          |    9.572|
+IR_IN_P15                |P27                  |   11.973|
+IR_IN_P15                |P29                  |   12.235|
+IR_IN_P15                |P32                  |   12.821|
+IR_IN_P15                |P34                  |   13.021|
+IR_IN_P15                |P35                  |   12.908|
+IR_IN_P15                |P40                  |   13.126|
+IR_IN_P15                |P41                  |   13.324|
+IR_IN_P15                |RL_Fan               |    8.488|
+IR_PIN_22                |Lighting_Toilet_Relay|    7.836|
+IR_PIN_22                |Lnk_Toi              |    8.323|
+IR_PIN_22                |P27                  |   11.197|
+IR_PIN_22                |P29                  |   11.713|
+IR_PIN_22                |P32                  |   12.299|
+IR_PIN_22                |P34                  |   12.261|
+IR_PIN_22                |P35                  |   12.386|
+IR_PIN_22                |P40                  |   12.604|
+IR_PIN_22                |P41                  |   12.548|
+P1                       |P27                  |   10.700|
+P1                       |P29                  |   11.234|
+P1                       |P32                  |   11.810|
+P1                       |P34                  |   11.936|
+P1                       |P35                  |   11.897|
+P1                       |P40                  |   12.125|
+P1                       |P41                  |   12.051|
+P124                     |Link_Living          |   10.683|
+P124                     |P27                  |   13.084|
+P124                     |P29                  |   13.346|
+P124                     |P32                  |   13.932|
+P124                     |P34                  |   14.132|
+P124                     |P35                  |   14.019|
+P124                     |P40                  |   14.237|
+P124                     |P41                  |   14.435|
+P124                     |RL_Fan               |    9.599|
+P127                     |Link_Living          |   10.719|
+P127                     |P27                  |   13.120|
+P127                     |P29                  |   13.382|
+P127                     |P32                  |   13.968|
+P127                     |P34                  |   14.168|
+P127                     |P35                  |   14.055|
+P127                     |P40                  |   14.273|
+P127                     |P41                  |   14.471|
+P127                     |RL_Fan               |    9.635|
+P132                     |Link_Living          |   10.639|
+P132                     |P27                  |   13.040|
+P132                     |P29                  |   13.302|
+P132                     |P32                  |   13.888|
+P132                     |P34                  |   14.088|
+P132                     |P35                  |   13.975|
+P132                     |P40                  |   14.193|
+P132                     |P41                  |   14.391|
+P132                     |RL_Fan               |    9.555|
+P134                     |Link_Living          |   10.603|
+P134                     |P27                  |   13.004|
+P134                     |P29                  |   13.266|
+P134                     |P32                  |   13.852|
+P134                     |P34                  |   14.052|
+P134                     |P35                  |   13.939|
+P134                     |P40                  |   14.157|
+P134                     |P41                  |   14.355|
+P134                     |RL_Fan               |    9.519|
+P138                     |P27                  |   10.173|
+P138                     |P29                  |   10.350|
+P138                     |P32                  |   10.937|
+P138                     |P34                  |   11.221|
+P138                     |P35                  |   11.024|
+P138                     |P40                  |   11.241|
+P138                     |P41                  |   11.524|
+P140                     |P27                  |   10.765|
+P140                     |P29                  |   11.281|
+P140                     |P32                  |   11.867|
+P140                     |P34                  |   11.829|
+P140                     |P35                  |   11.954|
+P140                     |P40                  |   12.172|
+P140                     |P41                  |   12.116|
+P142                     |P27                  |   10.155|
+P142                     |P29                  |   10.749|
+P142                     |P32                  |   11.000|
+P142                     |P34                  |   10.936|
+P142                     |P35                  |   11.087|
+P142                     |P40                  |   11.640|
+P142                     |P41                  |   11.506|
+PIR_IN_P12               |Link_Living          |   10.334|
+PIR_IN_P12               |P27                  |   12.735|
+PIR_IN_P12               |P29                  |   12.997|
+PIR_IN_P12               |P32                  |   13.583|
+PIR_IN_P12               |P34                  |   13.783|
+PIR_IN_P12               |P35                  |   13.670|
+PIR_IN_P12               |P40                  |   13.888|
+PIR_IN_P12               |P41                  |   14.086|
+PIR_IN_P12               |RL_Fan               |    9.250|
+PIR_PIN_17               |Lighting_Toilet_Relay|    7.748|
+PIR_PIN_17               |Lnk_Toi              |    8.235|
+PIR_PIN_17               |P27                  |   11.109|
+PIR_PIN_17               |P29                  |   11.625|
+PIR_PIN_17               |P32                  |   12.211|
+PIR_PIN_17               |P34                  |   12.173|
+PIR_PIN_17               |P35                  |   12.298|
+PIR_PIN_17               |P40                  |   12.516|
+PIR_PIN_17               |P41                  |   12.460|
+Select_Condition_Temp_P56|Link_Living          |   11.921|
+Select_Condition_Temp_P56|P27                  |   14.322|
+Select_Condition_Temp_P56|P29                  |   14.584|
+Select_Condition_Temp_P56|P32                  |   15.170|
+Select_Condition_Temp_P56|P34                  |   15.370|
+Select_Condition_Temp_P56|P35                  |   15.257|
+Select_Condition_Temp_P56|P40                  |   15.475|
+Select_Condition_Temp_P56|P41                  |   15.673|
+Select_Condition_Temp_P56|RL_Fan               |   10.837|
+-------------------------+---------------------+---------+
+
+
+Analysis completed Tue Dec 13 04:32:45 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4571 MB
+
+
+

@@ -1,0 +1,146 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Mux8_Swap_8.vf
+// /___/   /\     Timestamp : 12/12/2022 20:45:29
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog "C:/Users/XickZenF5/Desktop/Mux8_Swap FPGA2_BedRoom/MuxSwap_8/Mux8_Swap_8.vf" -w "C:/Users/XickZenF5/Desktop/Mux8_Swap FPGA2_BedRoom/MuxSwap_8/Mux8_Swap_8.sch"
+//Design Name: Mux8_Swap_8
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale  100 ps / 10 ps
+
+module M8_1E_HXILINX_Mux8_Swap_8 (O, D0, D1, D2, D3, D4, D5, D6, D7, E, S0, S1, S2);
+    
+
+   output O;
+
+   input  D0;
+   input  D1;
+   input  D2;
+   input  D3;
+   input  D4;
+   input  D5;
+   input  D6;
+   input  D7;
+   input  E;
+   input  S0;
+   input  S1;
+   input  S2;
+
+   reg O;
+
+   always @ ( D0 or D1 or D2 or D3 or D4 or D5 or D6 or D7 or E or S0 or S1 or S2)
+   begin
+      if(!E)
+      O <= 1'b0;
+      else 
+      begin
+        case({S2,S1,S0})
+        3'b000 : O <= D0;
+        3'b001 : O <= D1;
+        3'b010 : O <= D2;
+        3'b011 : O <= D3;
+        3'b100 : O <= D4;
+        3'b101 : O <= D5;
+        3'b110 : O <= D6;
+        3'b111 : O <= D7;
+        endcase
+      end
+   end
+    
+endmodule
+`timescale 1ns / 1ps
+
+module Mux8_Swap_8(IN_1, 
+                   IN_2, 
+                   IN_3, 
+                   IN_4, 
+                   IN_5, 
+                   IN_6, 
+                   IN_7, 
+                   IN_8, 
+                   Select_LED, 
+                   BIT_OUT_MUX_8);
+
+    input [3:0] IN_1;
+    input [3:0] IN_2;
+    input [3:0] IN_3;
+    input [3:0] IN_4;
+    input [3:0] IN_5;
+    input [3:0] IN_6;
+    input [3:0] IN_7;
+    input [3:0] IN_8;
+    input [2:0] Select_LED;
+   output [3:0] BIT_OUT_MUX_8;
+   
+   wire XLXN_50;
+   
+   (* HU_SET = "XLXI_5_57" *) 
+   M8_1E_HXILINX_Mux8_Swap_8  XLXI_5 (.D0(IN_1[0]), 
+                                     .D1(IN_2[0]), 
+                                     .D2(IN_3[0]), 
+                                     .D3(IN_4[0]), 
+                                     .D4(IN_5[0]), 
+                                     .D5(IN_6[0]), 
+                                     .D6(IN_7[0]), 
+                                     .D7(IN_8[0]), 
+                                     .E(XLXN_50), 
+                                     .S0(Select_LED[0]), 
+                                     .S1(Select_LED[1]), 
+                                     .S2(Select_LED[2]), 
+                                     .O(BIT_OUT_MUX_8[0]));
+   (* HU_SET = "XLXI_6_58" *) 
+   M8_1E_HXILINX_Mux8_Swap_8  XLXI_6 (.D0(IN_1[1]), 
+                                     .D1(IN_2[1]), 
+                                     .D2(IN_3[1]), 
+                                     .D3(IN_4[1]), 
+                                     .D4(IN_5[1]), 
+                                     .D5(IN_6[1]), 
+                                     .D6(IN_7[1]), 
+                                     .D7(IN_8[1]), 
+                                     .E(XLXN_50), 
+                                     .S0(Select_LED[0]), 
+                                     .S1(Select_LED[1]), 
+                                     .S2(Select_LED[2]), 
+                                     .O(BIT_OUT_MUX_8[1]));
+   (* HU_SET = "XLXI_7_59" *) 
+   M8_1E_HXILINX_Mux8_Swap_8  XLXI_7 (.D0(IN_1[2]), 
+                                     .D1(IN_2[2]), 
+                                     .D2(IN_3[2]), 
+                                     .D3(IN_4[2]), 
+                                     .D4(IN_5[2]), 
+                                     .D5(IN_6[2]), 
+                                     .D6(IN_7[2]), 
+                                     .D7(IN_8[2]), 
+                                     .E(XLXN_50), 
+                                     .S0(Select_LED[0]), 
+                                     .S1(Select_LED[1]), 
+                                     .S2(Select_LED[2]), 
+                                     .O(BIT_OUT_MUX_8[2]));
+   (* HU_SET = "XLXI_8_60" *) 
+   M8_1E_HXILINX_Mux8_Swap_8  XLXI_8 (.D0(IN_1[3]), 
+                                     .D1(IN_2[3]), 
+                                     .D2(IN_3[3]), 
+                                     .D3(IN_4[3]), 
+                                     .D4(IN_5[3]), 
+                                     .D5(IN_6[3]), 
+                                     .D6(IN_7[3]), 
+                                     .D7(IN_8[3]), 
+                                     .E(XLXN_50), 
+                                     .S0(Select_LED[0]), 
+                                     .S1(Select_LED[1]), 
+                                     .S2(Select_LED[2]), 
+                                     .O(BIT_OUT_MUX_8[3]));
+   VCC  XLXI_17 (.P(XLXN_50));
+endmodule

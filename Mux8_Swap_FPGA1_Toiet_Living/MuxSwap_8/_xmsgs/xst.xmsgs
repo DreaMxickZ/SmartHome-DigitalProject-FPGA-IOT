@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\XickZenF5\Desktop\Mux8_Swap_FPGA1_Toiet_Living\MuxSwap_8\Main_Module.vf" Line 48: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\XickZenF5\Desktop\Mux8_Swap_FPGA1_Toiet_Living\MuxSwap_8\Main_Module.vf" Line 157: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\Mux8_Swap_FPGA1_Toiet_Living\MuxSwap_8\Main_Module.vf</arg>&quot; line <arg fmt="%s" index="2">1649</arg>: Output port &lt;<arg fmt="%s" index="3">clk_1hz</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_9</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\Mux8_Swap_FPGA1_Toiet_Living\MuxSwap_8\Main_Module.vf</arg>&quot; line <arg fmt="%s" index="2">1649</arg>: Output port &lt;<arg fmt="%s" index="3">clk_2hz</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_9</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\Mux8_Swap_FPGA1_Toiet_Living\MuxSwap_8\Main_Module.vf</arg>&quot; line <arg fmt="%s" index="2">1649</arg>: Output port &lt;<arg fmt="%s" index="3">clk_2mhz</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_9</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\Mux8_Swap_FPGA1_Toiet_Living\MuxSwap_8\Main_Module.vf</arg>&quot; line <arg fmt="%s" index="2">1649</arg>: Output port &lt;<arg fmt="%s" index="3">clk_20hz</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_9</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\Mux8_Swap_FPGA1_Toiet_Living\MuxSwap_8\Main_Module.vf</arg>&quot; line <arg fmt="%s" index="2">1649</arg>: Output port &lt;<arg fmt="%s" index="3">clk_20khz</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_9</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\Mux8_Swap_FPGA1_Toiet_Living\MuxSwap_8\Main_Module.vf</arg>&quot; line <arg fmt="%s" index="2">1649</arg>: Output port &lt;<arg fmt="%s" index="3">clk_200hz</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_9</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\Mux8_Swap_FPGA1_Toiet_Living\MuxSwap_8\Main_Module.vf</arg>&quot; line <arg fmt="%s" index="2">1649</arg>: Output port &lt;<arg fmt="%s" index="3">clk_200khz</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_9</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\Mux8_Swap_FPGA1_Toiet_Living\MuxSwap_8\Main_Module.vf</arg>&quot; line <arg fmt="%s" index="2">865</arg>: Output port &lt;<arg fmt="%s" index="3">CEO</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_597</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\Mux8_Swap_FPGA1_Toiet_Living\MuxSwap_8\Main_Module.vf</arg>&quot; line <arg fmt="%s" index="2">865</arg>: Output port &lt;<arg fmt="%s" index="3">TC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_597</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\Mux8_Swap_FPGA1_Toiet_Living\MuxSwap_8\Main_Module.vf</arg>&quot; line <arg fmt="%s" index="2">885</arg>: Output port &lt;<arg fmt="%s" index="3">CEO</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_602</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\Mux8_Swap_FPGA1_Toiet_Living\MuxSwap_8\Main_Module.vf</arg>&quot; line <arg fmt="%s" index="2">885</arg>: Output port &lt;<arg fmt="%s" index="3">TC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_602</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\Mux8_Swap_FPGA1_Toiet_Living\MuxSwap_8\Main_Module.vf</arg>&quot; line <arg fmt="%s" index="2">905</arg>: Output port &lt;<arg fmt="%s" index="3">CEO</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_607</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\Mux8_Swap_FPGA1_Toiet_Living\MuxSwap_8\Main_Module.vf</arg>&quot; line <arg fmt="%s" index="2">905</arg>: Output port &lt;<arg fmt="%s" index="3">TC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_607</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\Mux8_Swap_FPGA1_Toiet_Living\MuxSwap_8\Main_Module.vf</arg>&quot; line <arg fmt="%s" index="2">925</arg>: Output port &lt;<arg fmt="%s" index="3">CEO</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_657</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\Mux8_Swap_FPGA1_Toiet_Living\MuxSwap_8\Main_Module.vf</arg>&quot; line <arg fmt="%s" index="2">925</arg>: Output port &lt;<arg fmt="%s" index="3">TC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_657</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\Mux8_Swap_FPGA1_Toiet_Living\MuxSwap_8\Main_Module.vf</arg>&quot; line <arg fmt="%s" index="2">945</arg>: Output port &lt;<arg fmt="%s" index="3">CEO</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_662</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\Mux8_Swap_FPGA1_Toiet_Living\MuxSwap_8\Main_Module.vf</arg>&quot; line <arg fmt="%s" index="2">945</arg>: Output port &lt;<arg fmt="%s" index="3">TC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_662</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\Mux8_Swap_FPGA1_Toiet_Living\MuxSwap_8\Main_Module.vf</arg>&quot; line <arg fmt="%s" index="2">965</arg>: Output port &lt;<arg fmt="%s" index="3">CEO</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_667</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\Mux8_Swap_FPGA1_Toiet_Living\MuxSwap_8\Main_Module.vf</arg>&quot; line <arg fmt="%s" index="2">965</arg>: Output port &lt;<arg fmt="%s" index="3">TC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_667</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\Mux8_Swap_FPGA1_Toiet_Living\MuxSwap_8\Main_Module.vf</arg>&quot; line <arg fmt="%s" index="2">985</arg>: Output port &lt;<arg fmt="%s" index="3">CEO</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_672</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\Mux8_Swap_FPGA1_Toiet_Living\MuxSwap_8\Main_Module.vf</arg>&quot; line <arg fmt="%s" index="2">985</arg>: Output port &lt;<arg fmt="%s" index="3">TC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_672</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\Mux8_Swap_FPGA1_Toiet_Living\MuxSwap_8\Main_Module.vf</arg>&quot; line <arg fmt="%s" index="2">1049</arg>: Output port &lt;<arg fmt="%s" index="3">CEO</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">C:\Users\XickZenF5\Desktop\Mux8_Swap_FPGA1_Toiet_Living\MuxSwap_8\Main_Module.vf</arg>&quot; line <arg fmt="%s" index="2">1049</arg>: Output port &lt;<arg fmt="%s" index="3">TC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">XLXI_1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">XLXI_676</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">XLXI_9</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_Seven_Segment</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">XLXI_9/XLXI_676</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Main_Module</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">XLXI_68/XLXI_29/XLXI_2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Main_Module</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">XLXI_68/XLXI_29/XLXI_4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Main_Module</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">XLXI_68/XLXI_29/XLXI_21</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Main_Module</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">XLXI_68/XLXI_20/XLXI_2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Main_Module</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">XLXI_68/XLXI_20/XLXI_4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Main_Module</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">XLXI_68/XLXI_20/XLXI_21</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Main_Module</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">XLXI_68/XLXI_19/XLXI_2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Main_Module</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">XLXI_68/XLXI_19/XLXI_4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Main_Module</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">XLXI_68/XLXI_19/XLXI_21</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Main_Module</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">XLXI_68/XLXI_14/XLXI_2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Main_Module</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">XLXI_68/XLXI_14/XLXI_4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Main_Module</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">XLXI_68/XLXI_14/XLXI_21</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Main_Module</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">XLXI_128/XLXI_126/XLXI_21</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Main_Module</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">XLXI_128/XLXI_126/XLXI_4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Main_Module</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">XLXI_128/XLXI_126/XLXI_2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Main_Module</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">XLXI_128/XLXI_127/XLXI_21</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Main_Module</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">XLXI_128/XLXI_127/XLXI_4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Main_Module</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">XLXI_128/XLXI_127/XLXI_2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Main_Module</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">XLXI_128/XLXI_125/XLXI_21</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Main_Module</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">XLXI_128/XLXI_125/XLXI_4</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Main_Module</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">XLXI_128/XLXI_125/XLXI_2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Main_Module</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">XLXI_11/XLXI_16/XLXI_7</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Main_Module</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">XLXI_11/XLXI_16/XLXI_1</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Main_Module</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">XLXI_11/XLXI_1/XLXI_8</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">Main_Module</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

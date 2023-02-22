@@ -1,0 +1,135 @@
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Main_Module.xst" -ofn "C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Main_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Main_Module.ucf -p xc6slx9-tqg144-3 Main_Module.ngc Main_Module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_Module_map.ncd Main_Module.ngd Main_Module.pcf 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Main_Module.xst" -ofn "C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Main_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Main_Module.ucf -p xc6slx9-tqg144-3 Main_Module.ngc Main_Module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_Module_map.ncd Main_Module.ngd Main_Module.pcf 
+par -w -intstyle ise -ol high -mt off Main_Module_map.ncd Main_Module.ncd Main_Module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main_Module.twx Main_Module.ncd -o Main_Module.twr Main_Module.pcf -ucf Main_Module.ucf 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Main_Module.xst" -ofn "C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Main_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Main_Module.ucf -p xc6slx9-tqg144-3 Main_Module.ngc Main_Module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_Module_map.ncd Main_Module.ngd Main_Module.pcf 
+par -w -intstyle ise -ol high -mt off Main_Module_map.ncd Main_Module.ncd Main_Module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main_Module.twx Main_Module.ncd -o Main_Module.twr Main_Module.pcf -ucf Main_Module.ucf 
+bitgen -intstyle ise -f Main_Module.ut Main_Module.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Main_Module.xst" -ofn "C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Main_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Main_Module.ucf -p xc6slx9-tqg144-3 Main_Module.ngc Main_Module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_Module_map.ncd Main_Module.ngd Main_Module.pcf 
+par -w -intstyle ise -ol high -mt off Main_Module_map.ncd Main_Module.ncd Main_Module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main_Module.twx Main_Module.ncd -o Main_Module.twr Main_Module.pcf -ucf Main_Module.ucf 
+bitgen -intstyle ise -f Main_Module.ut Main_Module.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Main_Module.xst" -ofn "C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Main_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Main_Module.ucf -p xc6slx9-tqg144-3 Main_Module.ngc Main_Module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_Module_map.ncd Main_Module.ngd Main_Module.pcf 
+par -w -intstyle ise -ol high -mt off Main_Module_map.ncd Main_Module.ncd Main_Module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main_Module.twx Main_Module.ncd -o Main_Module.twr Main_Module.pcf -ucf Main_Module.ucf 
+bitgen -intstyle ise -f Main_Module.ut Main_Module.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Main_Module.xst" -ofn "C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Main_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Main_Module.ucf -p xc6slx9-tqg144-3 Main_Module.ngc Main_Module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_Module_map.ncd Main_Module.ngd Main_Module.pcf 
+par -w -intstyle ise -ol high -mt off Main_Module_map.ncd Main_Module.ncd Main_Module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main_Module.twx Main_Module.ncd -o Main_Module.twr Main_Module.pcf -ucf Main_Module.ucf 
+bitgen -intstyle ise -f Main_Module.ut Main_Module.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Main_Module.xst" -ofn "C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Main_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Main_Module.ucf -p xc6slx9-tqg144-3 Main_Module.ngc Main_Module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_Module_map.ncd Main_Module.ngd Main_Module.pcf 
+par -w -intstyle ise -ol high -mt off Main_Module_map.ncd Main_Module.ncd Main_Module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main_Module.twx Main_Module.ncd -o Main_Module.twr Main_Module.pcf -ucf Main_Module.ucf 
+bitgen -intstyle ise -f Main_Module.ut Main_Module.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Main_Module.xst" -ofn "C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Main_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Main_Module.ucf -p xc6slx9-tqg144-3 Main_Module.ngc Main_Module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_Module_map.ncd Main_Module.ngd Main_Module.pcf 
+par -w -intstyle ise -ol high -mt off Main_Module_map.ncd Main_Module.ncd Main_Module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main_Module.twx Main_Module.ncd -o Main_Module.twr Main_Module.pcf -ucf Main_Module.ucf 
+bitgen -intstyle ise -f Main_Module.ut Main_Module.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Main_Module.xst" -ofn "C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Main_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Main_Module.ucf -p xc6slx9-tqg144-3 Main_Module.ngc Main_Module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_Module_map.ncd Main_Module.ngd Main_Module.pcf 
+par -w -intstyle ise -ol high -mt off Main_Module_map.ncd Main_Module.ncd Main_Module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main_Module.twx Main_Module.ncd -o Main_Module.twr Main_Module.pcf -ucf Main_Module.ucf 
+bitgen -intstyle ise -f Main_Module.ut Main_Module.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Main_Module.xst" -ofn "C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Main_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Main_Module.ucf -p xc6slx9-tqg144-3 Main_Module.ngc Main_Module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_Module_map.ncd Main_Module.ngd Main_Module.pcf 
+par -w -intstyle ise -ol high -mt off Main_Module_map.ncd Main_Module.ncd Main_Module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main_Module.twx Main_Module.ncd -o Main_Module.twr Main_Module.pcf -ucf Main_Module.ucf 
+bitgen -intstyle ise -f Main_Module.ut Main_Module.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Main_Module.xst" -ofn "C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Main_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Main_Module.ucf -p xc6slx9-tqg144-3 Main_Module.ngc Main_Module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_Module_map.ncd Main_Module.ngd Main_Module.pcf 
+par -w -intstyle ise -ol high -mt off Main_Module_map.ncd Main_Module.ncd Main_Module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main_Module.twx Main_Module.ncd -o Main_Module.twr Main_Module.pcf -ucf Main_Module.ucf 
+bitgen -intstyle ise -f Main_Module.ut Main_Module.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Main_Module.xst" -ofn "C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Main_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Main_Module.ucf -p xc6slx9-tqg144-3 Main_Module.ngc Main_Module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_Module_map.ncd Main_Module.ngd Main_Module.pcf 
+par -w -intstyle ise -ol high -mt off Main_Module_map.ncd Main_Module.ncd Main_Module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main_Module.twx Main_Module.ncd -o Main_Module.twr Main_Module.pcf -ucf Main_Module.ucf 
+bitgen -intstyle ise -f Main_Module.ut Main_Module.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Main_Module.xst" -ofn "C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Main_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Main_Module.ucf -p xc6slx9-tqg144-3 Main_Module.ngc Main_Module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_Module_map.ncd Main_Module.ngd Main_Module.pcf 
+par -w -intstyle ise -ol high -mt off Main_Module_map.ncd Main_Module.ncd Main_Module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main_Module.twx Main_Module.ncd -o Main_Module.twr Main_Module.pcf -ucf Main_Module.ucf 
+bitgen -intstyle ise -f Main_Module.ut Main_Module.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Main_Module.xst" -ofn "C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Main_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Main_Module.ucf -p xc6slx9-tqg144-3 Main_Module.ngc Main_Module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_Module_map.ncd Main_Module.ngd Main_Module.pcf 
+par -w -intstyle ise -ol high -mt off Main_Module_map.ncd Main_Module.ncd Main_Module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main_Module.twx Main_Module.ncd -o Main_Module.twr Main_Module.pcf -ucf Main_Module.ucf 
+bitgen -intstyle ise -f Main_Module.ut Main_Module.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Main_Module.xst" -ofn "C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Main_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Main_Module.ucf -p xc6slx9-tqg144-3 Main_Module.ngc Main_Module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_Module_map.ncd Main_Module.ngd Main_Module.pcf 
+par -w -intstyle ise -ol high -mt off Main_Module_map.ncd Main_Module.ncd Main_Module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main_Module.twx Main_Module.ncd -o Main_Module.twr Main_Module.pcf -ucf Main_Module.ucf 
+bitgen -intstyle ise -f Main_Module.ut Main_Module.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Main_Module.xst" -ofn "C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Main_Module.syr" 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Main_Module.xst" -ofn "C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Main_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Main_Module.ucf -p xc6slx9-tqg144-3 Main_Module.ngc Main_Module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_Module_map.ncd Main_Module.ngd Main_Module.pcf 
+par -w -intstyle ise -ol high -mt off Main_Module_map.ncd Main_Module.ncd Main_Module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main_Module.twx Main_Module.ncd -o Main_Module.twr Main_Module.pcf -ucf Main_Module.ucf 
+bitgen -intstyle ise -f Main_Module.ut Main_Module.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Main_Module.xst" -ofn "C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Main_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Main_Module.ucf -p xc6slx9-tqg144-3 Main_Module.ngc Main_Module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_Module_map.ncd Main_Module.ngd Main_Module.pcf 
+par -w -intstyle ise -ol high -mt off Main_Module_map.ncd Main_Module.ncd Main_Module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main_Module.twx Main_Module.ncd -o Main_Module.twr Main_Module.pcf -ucf Main_Module.ucf 
+bitgen -intstyle ise -f Main_Module.ut Main_Module.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Main_Module.xst" -ofn "C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/Main_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Main_Module.ucf -p xc6slx9-tqg144-3 Main_Module.ngc Main_Module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_Module_map.ncd Main_Module.ngd Main_Module.pcf 
+par -w -intstyle ise -ol high -mt off Main_Module_map.ncd Main_Module.ncd Main_Module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main_Module.twx Main_Module.ncd -o Main_Module.twr Main_Module.pcf -ucf Main_Module.ucf 
+bitgen -intstyle ise -f Main_Module.ut Main_Module.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/Mux8_Swap_FPGA1_Toiet_Living/MuxSwap_8/Main_Module.xst" -ofn "C:/Users/XickZenF5/Desktop/Mux8_Swap_FPGA1_Toiet_Living/MuxSwap_8/Main_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Main_Module.ucf -p xc6slx9-tqg144-3 Main_Module.ngc Main_Module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_Module_map.ncd Main_Module.ngd Main_Module.pcf 
+par -w -intstyle ise -ol high -mt off Main_Module_map.ncd Main_Module.ncd Main_Module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main_Module.twx Main_Module.ncd -o Main_Module.twr Main_Module.pcf -ucf Main_Module.ucf 
+bitgen -intstyle ise -f Main_Module.ut Main_Module.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/Mux8_Swap_FPGA1_Toiet_Living/MuxSwap_8/Main_Module.xst" -ofn "C:/Users/XickZenF5/Desktop/Mux8_Swap_FPGA1_Toiet_Living/MuxSwap_8/Main_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Main_Module.ucf -p xc6slx9-tqg144-3 Main_Module.ngc Main_Module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_Module_map.ncd Main_Module.ngd Main_Module.pcf 
+par -w -intstyle ise -ol high -mt off Main_Module_map.ncd Main_Module.ncd Main_Module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main_Module.twx Main_Module.ncd -o Main_Module.twr Main_Module.pcf -ucf Main_Module.ucf 
+bitgen -intstyle ise -f Main_Module.ut Main_Module.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/Mux8_Swap_FPGA1_Toiet_Living/MuxSwap_8/Main_Module.xst" -ofn "C:/Users/XickZenF5/Desktop/Mux8_Swap_FPGA1_Toiet_Living/MuxSwap_8/Main_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Main_Module.ucf -p xc6slx9-tqg144-3 Main_Module.ngc Main_Module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_Module_map.ncd Main_Module.ngd Main_Module.pcf 
+par -w -intstyle ise -ol high -mt off Main_Module_map.ncd Main_Module.ncd Main_Module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main_Module.twx Main_Module.ncd -o Main_Module.twr Main_Module.pcf -ucf Main_Module.ucf 
+bitgen -intstyle ise -f Main_Module.ut Main_Module.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/Mux8_Swap_FPGA1_Toiet_Living/MuxSwap_8/Main_Module.xst" -ofn "C:/Users/XickZenF5/Desktop/Mux8_Swap_FPGA1_Toiet_Living/MuxSwap_8/Main_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Main_Module.ucf -p xc6slx9-tqg144-3 Main_Module.ngc Main_Module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_Module_map.ncd Main_Module.ngd Main_Module.pcf 
+par -w -intstyle ise -ol high -mt off Main_Module_map.ncd Main_Module.ncd Main_Module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main_Module.twx Main_Module.ncd -o Main_Module.twr Main_Module.pcf -ucf Main_Module.ucf 
+bitgen -intstyle ise -f Main_Module.ut Main_Module.ncd 
+xst -intstyle ise -ifn "C:/Users/XickZenF5/Desktop/Mux8_Swap_FPGA1_Toiet_Living/MuxSwap_8/Main_Module.xst" -ofn "C:/Users/XickZenF5/Desktop/Mux8_Swap_FPGA1_Toiet_Living/MuxSwap_8/Main_Module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Main_Module.ucf -p xc6slx9-tqg144-3 Main_Module.ngc Main_Module.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Main_Module_map.ncd Main_Module.ngd Main_Module.pcf 
+par -w -intstyle ise -ol high -mt off Main_Module_map.ncd Main_Module.ncd Main_Module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Main_Module.twx Main_Module.ncd -o Main_Module.twr Main_Module.pcf -ucf Main_Module.ucf 
+bitgen -intstyle ise -f Main_Module.ut Main_Module.ncd 

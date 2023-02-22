@@ -1,0 +1,115 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : TempCheck_Living.vf
+// /___/   /\     Timestamp : 12/11/2022 08:38:28
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan6 -verilog C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/TempCheck_Living.vf -w C:/Users/XickZenF5/Desktop/Mux8_Swap/MuxSwap_8/TempCheck_Living.sch
+//Design Name: TempCheck_Living
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module TempCheck_Living(Digit1_DHT_PIN1, 
+                        Digit2_DHT_PIN142, 
+                        Digit3_DHT_PIN140, 
+                        Digit4_DHT_PIN138, 
+                        Ten1_DHT_P134, 
+                        Ten2_DHT_P132, 
+                        Ten3_DHT_P127, 
+                        Ten4_DHT_P124, 
+                        Temp_Digit_1, 
+                        Temp_Digit_2, 
+                        Temp_Digit_3, 
+                        Temp_Digit_4, 
+                        Temp_Digit_5, 
+                        Temp_Digit_6, 
+                        Temp_Digit_7, 
+                        Temp_Digit_8, 
+                        TEMP_30_40);
+
+    input Digit1_DHT_PIN1;
+    input Digit2_DHT_PIN142;
+    input Digit3_DHT_PIN140;
+    input Digit4_DHT_PIN138;
+    input Ten1_DHT_P134;
+    input Ten2_DHT_P132;
+    input Ten3_DHT_P127;
+    input Ten4_DHT_P124;
+   output Temp_Digit_1;
+   output Temp_Digit_2;
+   output Temp_Digit_3;
+   output Temp_Digit_4;
+   output Temp_Digit_5;
+   output Temp_Digit_6;
+   output Temp_Digit_7;
+   output Temp_Digit_8;
+   output TEMP_30_40;
+   
+   wire XLXN_1;
+   wire XLXN_2;
+   wire XLXN_3;
+   wire XLXN_4;
+   wire XLXN_49;
+   wire XLXN_50;
+   wire XLXN_51;
+   wire XLXN_52;
+   wire XLXN_53;
+   wire XLXN_54;
+   
+   BUF  XLXI_1 (.I(Digit1_DHT_PIN1), 
+               .O(XLXN_1));
+   BUF  XLXI_2 (.I(Digit2_DHT_PIN142), 
+               .O(XLXN_2));
+   BUF  XLXI_3 (.I(Digit3_DHT_PIN140), 
+               .O(XLXN_3));
+   BUF  XLXI_4 (.I(Digit4_DHT_PIN138), 
+               .O(XLXN_4));
+   BUF  XLXI_5 (.I(Ten1_DHT_P134), 
+               .O(XLXN_50));
+   BUF  XLXI_6 (.I(Ten2_DHT_P132), 
+               .O(XLXN_51));
+   BUF  XLXI_7 (.I(Ten4_DHT_P124), 
+               .O(XLXN_52));
+   BUF  XLXI_8 (.I(Ten3_DHT_P127), 
+               .O(XLXN_49));
+   BUF  XLXI_65 (.I(XLXN_52), 
+                .O(Temp_Digit_8));
+   BUF  XLXI_66 (.I(XLXN_49), 
+                .O(Temp_Digit_7));
+   BUF  XLXI_67 (.I(XLXN_51), 
+                .O(Temp_Digit_6));
+   BUF  XLXI_68 (.I(XLXN_50), 
+                .O(Temp_Digit_5));
+   BUF  XLXI_69 (.I(XLXN_4), 
+                .O(Temp_Digit_4));
+   BUF  XLXI_70 (.I(XLXN_3), 
+                .O(Temp_Digit_3));
+   BUF  XLXI_71 (.I(XLXN_2), 
+                .O(Temp_Digit_2));
+   BUF  XLXI_72 (.I(XLXN_1), 
+                .O(Temp_Digit_1));
+   AND4B2  XLXI_91 (.I0(XLXN_52), 
+                   .I1(XLXN_49), 
+                   .I2(XLXN_51), 
+                   .I3(XLXN_50), 
+                   .O(XLXN_53));
+   AND4B3  XLXI_92 (.I0(XLXN_52), 
+                   .I1(XLXN_51), 
+                   .I2(XLXN_50), 
+                   .I3(XLXN_49), 
+                   .O(XLXN_54));
+   OR2  XLXI_93 (.I0(XLXN_54), 
+                .I1(XLXN_53), 
+                .O(TEMP_30_40));
+endmodule

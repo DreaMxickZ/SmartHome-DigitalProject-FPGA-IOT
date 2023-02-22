@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="1">
+	<Ifc Id="ROOT" Top="1">
+		<Port Id="DOOR_PIN_24" Dir="IN"/>
+		<Port Id="IR_IN_P15" Dir="IN"/>
+		<Port Id="IR_PIN_22" Dir="IN"/>
+		<Port Id="Osc" Dir="IN"/>
+		<Port Id="PIR_IN_P12" Dir="IN"/>
+		<Port Id="PIR_PIN_17" Dir="IN"/>
+		<Port Id="P1" Dir="IN"/>
+		<Port Id="P45" Dir="IN"/>
+		<Port Id="P46" Dir="IN"/>
+		<Port Id="P124" Dir="IN"/>
+		<Port Id="P127" Dir="IN"/>
+		<Port Id="P132" Dir="IN"/>
+		<Port Id="P134" Dir="IN"/>
+		<Port Id="P138" Dir="IN"/>
+		<Port Id="P140" Dir="IN"/>
+		<Port Id="P142" Dir="IN"/>
+		<Port Id="Select_Condition_Temp_P56" Dir="IN"/>
+		<Port Id="COm0" Dir="OUT"/>
+		<Port Id="COm1" Dir="OUT"/>
+		<Port Id="COm2" Dir="OUT"/>
+		<Port Id="COm3" Dir="OUT"/>
+		<Port Id="Fan_Living_Relay" Dir="OUT"/>
+		<Port Id="Lighting_Toilet_Relay" Dir="OUT"/>
+		<Port Id="Point" Dir="OUT"/>
+		<Port Id="P27" Dir="OUT"/>
+		<Port Id="P29" Dir="OUT"/>
+		<Port Id="P32" Dir="OUT"/>
+		<Port Id="P34" Dir="OUT"/>
+		<Port Id="P35" Dir="OUT"/>
+		<Port Id="P40" Dir="OUT"/>
+		<Port Id="P41" Dir="OUT"/>
+	</Ifc>
+</Interface>
+

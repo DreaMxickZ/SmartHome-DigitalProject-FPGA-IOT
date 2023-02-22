@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\XickZenF5\Desktop\Mux8_Swap_FPGA1_Toiet_Living\MuxSwap_8\Main_Module.ncd
+OUTFILE=C:\Users\XickZenF5\Desktop\Mux8_Swap_FPGA1_Toiet_Living\MuxSwap_8\Main_Module.bit
+FAMILY=Spartan6
+PART=xc6slx9-3tqg144
+WORKINGDIR=C:\Users\XickZenF5\Desktop\Mux8_Swap_FPGA1_Toiet_Living\MuxSwap_8
+LICENSE=WebPack
+USER_INFO=__0_0_0
